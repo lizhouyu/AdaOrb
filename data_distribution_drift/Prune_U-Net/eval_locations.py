@@ -47,8 +47,8 @@ def eval_location_A_model_on_location_B(output_dir: str, location_A: str, locati
     # location_A = 'mask64_AOI_5_Khartoum_Train'
     # location_B = 'mask64_AOI_3_Paris_Train'
 
-    val_im_folder_path = f'/mnt/sda/nfs/rw/oec/dataset/spacenet/building2/{location_B}/val/images'
-    val_mask_folder_path = f'/mnt/sda/nfs/rw/oec/dataset/spacenet/building2/{location_B}/val/masks'
+    val_im_folder_path = f'model_adaption_dataset/{location_B}/val/images'
+    val_mask_folder_path = f'model_adaption_dataset/{location_B}/val/masks'
 
     model_path = f'checkpoints/original/{location_A}/best.pt'
 
