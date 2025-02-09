@@ -1,0 +1,5 @@
+{
+    "location_A": "mask64_AOI_0_global_sampled_Train",
+    "location_B": "mask64_AOI_5_Khartoum_Train",
+    "val_dice": 0.6438714056939837
+}

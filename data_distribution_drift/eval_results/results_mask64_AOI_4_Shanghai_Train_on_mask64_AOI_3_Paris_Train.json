@@ -1,0 +1,5 @@
+{
+    "location_A": "mask64_AOI_4_Shanghai_Train",
+    "location_B": "mask64_AOI_3_Paris_Train",
+    "val_dice": 0.34227814612278507
+}

@@ -1,0 +1,2012 @@
+{
+    "1": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 1,
+        "begin_timepoint": 25800.0,
+        "end_timepoint": 25920.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 25800.0,
+        "time_to_next_connection": 5820.0
+    },
+    "2": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 2,
+        "begin_timepoint": 31740.0,
+        "end_timepoint": 31860.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "3": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 3,
+        "begin_timepoint": 37740.0,
+        "end_timepoint": 37800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "4": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 4,
+        "begin_timepoint": 43680.0,
+        "end_timepoint": 43800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "5": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 5,
+        "begin_timepoint": 49680.0,
+        "end_timepoint": 49800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 60600.0
+    },
+    "6": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 6,
+        "begin_timepoint": 110400.0,
+        "end_timepoint": 110460.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 60600.0,
+        "time_to_next_connection": 780.0
+    },
+    "7": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 7,
+        "begin_timepoint": 111240.0,
+        "end_timepoint": 111360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "8": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 8,
+        "begin_timepoint": 116340.0,
+        "end_timepoint": 116460.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "9": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 9,
+        "begin_timepoint": 122340.0,
+        "end_timepoint": 122400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "10": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 10,
+        "begin_timepoint": 128280.0,
+        "end_timepoint": 128400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "11": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 11,
+        "begin_timepoint": 134280.0,
+        "end_timepoint": 134400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17040.0
+    },
+    "12": {
+        "event": "connection",
+        "duration": 180.0,
+        "timepoint_counter": 12,
+        "begin_timepoint": 151440.0,
+        "end_timepoint": 151620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 17040.0,
+        "time_to_next_connection": 37980.0
+    },
+    "13": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 13,
+        "begin_timepoint": 189600.0,
+        "end_timepoint": 189720.0,
+        "num_captured_images_from_last_connection": 4,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    "14": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 14,
+        "begin_timepoint": 195000.0,
+        "end_timepoint": 195060.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 840.0
+    },
+    "15": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 15,
+        "begin_timepoint": 195900.0,
+        "end_timepoint": 195960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 840.0,
+        "time_to_next_connection": 4980.0
+    },
+    "16": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 16,
+        "begin_timepoint": 200940.0,
+        "end_timepoint": 201060.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "17": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 17,
+        "begin_timepoint": 206940.0,
+        "end_timepoint": 207000.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "18": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 18,
+        "begin_timepoint": 212880.0,
+        "end_timepoint": 213000.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "19": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 19,
+        "begin_timepoint": 218820.0,
+        "end_timepoint": 218940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 11280.0
+    },
+    "20": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 20,
+        "begin_timepoint": 230220.0,
+        "end_timepoint": 230340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "21": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 21,
+        "begin_timepoint": 285540.0,
+        "end_timepoint": 285660.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "22": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 22,
+        "begin_timepoint": 291540.0,
+        "end_timepoint": 291600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "23": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 23,
+        "begin_timepoint": 297480.0,
+        "end_timepoint": 297600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "24": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 24,
+        "begin_timepoint": 303420.0,
+        "end_timepoint": 303540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "25": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 25,
+        "begin_timepoint": 309420.0,
+        "end_timepoint": 309540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "26": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 26,
+        "begin_timepoint": 314820.0,
+        "end_timepoint": 314940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "27": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 27,
+        "begin_timepoint": 370140.0,
+        "end_timepoint": 370260.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "28": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 28,
+        "begin_timepoint": 376140.0,
+        "end_timepoint": 376260.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "29": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 29,
+        "begin_timepoint": 382080.0,
+        "end_timepoint": 382200.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5820.0
+    },
+    "30": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 30,
+        "begin_timepoint": 388020.0,
+        "end_timepoint": 388140.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "31": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 31,
+        "begin_timepoint": 394020.0,
+        "end_timepoint": 394140.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "32": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 32,
+        "begin_timepoint": 411240.0,
+        "end_timepoint": 411360.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    "33": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 33,
+        "begin_timepoint": 449340.0,
+        "end_timepoint": 449460.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    "34": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 34,
+        "begin_timepoint": 454740.0,
+        "end_timepoint": 454860.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    "35": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 35,
+        "begin_timepoint": 455640.0,
+        "end_timepoint": 455760.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4920.0
+    },
+    "36": {
+        "event": "connection",
+        "duration": 180.0,
+        "timepoint_counter": 36,
+        "begin_timepoint": 460680.0,
+        "end_timepoint": 460860.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4920.0,
+        "time_to_next_connection": 5820.0
+    },
+    "37": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 37,
+        "begin_timepoint": 466680.0,
+        "end_timepoint": 466800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5820.0
+    },
+    "38": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 38,
+        "begin_timepoint": 472620.0,
+        "end_timepoint": 472740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "39": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 39,
+        "begin_timepoint": 478620.0,
+        "end_timepoint": 478740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 66540.0
+    },
+    "40": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 40,
+        "begin_timepoint": 545280.0,
+        "end_timepoint": 545400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 66540.0,
+        "time_to_next_connection": 5880.0
+    },
+    "41": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 41,
+        "begin_timepoint": 551280.0,
+        "end_timepoint": 551400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "42": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 42,
+        "begin_timepoint": 557220.0,
+        "end_timepoint": 557340.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "43": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 43,
+        "begin_timepoint": 563220.0,
+        "end_timepoint": 563340.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "44": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 44,
+        "begin_timepoint": 569220.0,
+        "end_timepoint": 569280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "45": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 45,
+        "begin_timepoint": 574560.0,
+        "end_timepoint": 574680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "46": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 46,
+        "begin_timepoint": 629880.0,
+        "end_timepoint": 630000.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "47": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 47,
+        "begin_timepoint": 635880.0,
+        "end_timepoint": 636000.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "48": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 48,
+        "begin_timepoint": 641880.0,
+        "end_timepoint": 641940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "49": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 49,
+        "begin_timepoint": 647820.0,
+        "end_timepoint": 647940.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "50": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 50,
+        "begin_timepoint": 653760.0,
+        "end_timepoint": 653880.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 55260.0
+    },
+    "51": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 51,
+        "begin_timepoint": 709140.0,
+        "end_timepoint": 709200.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5280.0
+    },
+    "52": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 52,
+        "begin_timepoint": 714480.0,
+        "end_timepoint": 714600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    "53": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 53,
+        "begin_timepoint": 715380.0,
+        "end_timepoint": 715500.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "54": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 54,
+        "begin_timepoint": 720480.0,
+        "end_timepoint": 720600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "55": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 55,
+        "begin_timepoint": 726480.0,
+        "end_timepoint": 726540.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "56": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 56,
+        "begin_timepoint": 732420.0,
+        "end_timepoint": 732540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "57": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 57,
+        "begin_timepoint": 738360.0,
+        "end_timepoint": 738480.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 17100.0
+    },
+    "58": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 58,
+        "begin_timepoint": 755580.0,
+        "end_timepoint": 755700.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    "59": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 59,
+        "begin_timepoint": 793740.0,
+        "end_timepoint": 793800.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 11280.0
+    },
+    "60": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 60,
+        "begin_timepoint": 805080.0,
+        "end_timepoint": 805200.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 5820.0
+    },
+    "61": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 61,
+        "begin_timepoint": 811020.0,
+        "end_timepoint": 811140.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "62": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 62,
+        "begin_timepoint": 817020.0,
+        "end_timepoint": 817140.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "63": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 63,
+        "begin_timepoint": 822960.0,
+        "end_timepoint": 823080.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "64": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 64,
+        "begin_timepoint": 828960.0,
+        "end_timepoint": 829080.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "65": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 65,
+        "begin_timepoint": 834360.0,
+        "end_timepoint": 834480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "66": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 66,
+        "begin_timepoint": 889680.0,
+        "end_timepoint": 889800.0,
+        "num_captured_images_from_last_connection": 4,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5820.0
+    },
+    "67": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 67,
+        "begin_timepoint": 895620.0,
+        "end_timepoint": 895740.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "68": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 68,
+        "begin_timepoint": 901620.0,
+        "end_timepoint": 901740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "69": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 69,
+        "begin_timepoint": 907560.0,
+        "end_timepoint": 907680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "70": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 70,
+        "begin_timepoint": 913560.0,
+        "end_timepoint": 913680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 60600.0
+    },
+    "71": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 71,
+        "begin_timepoint": 974280.0,
+        "end_timepoint": 974400.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 60600.0,
+        "time_to_next_connection": 780.0
+    },
+    "72": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 72,
+        "begin_timepoint": 975180.0,
+        "end_timepoint": 975240.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "73": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 73,
+        "begin_timepoint": 980220.0,
+        "end_timepoint": 980340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "74": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 74,
+        "begin_timepoint": 986220.0,
+        "end_timepoint": 986340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "75": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 75,
+        "begin_timepoint": 992160.0,
+        "end_timepoint": 992280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "76": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 76,
+        "begin_timepoint": 998160.0,
+        "end_timepoint": 998280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "77": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 77,
+        "begin_timepoint": 1015380.0,
+        "end_timepoint": 1015500.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    "78": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 78,
+        "begin_timepoint": 1053480.0,
+        "end_timepoint": 1053600.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    "79": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 79,
+        "begin_timepoint": 1058880.0,
+        "end_timepoint": 1058940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 5880.0
+    },
+    "80": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 80,
+        "begin_timepoint": 1064820.0,
+        "end_timepoint": 1064940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "81": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 81,
+        "begin_timepoint": 1070820.0,
+        "end_timepoint": 1070940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "82": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 82,
+        "begin_timepoint": 1076760.0,
+        "end_timepoint": 1076880.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "83": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 83,
+        "begin_timepoint": 1082760.0,
+        "end_timepoint": 1082880.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "84": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 84,
+        "begin_timepoint": 1088760.0,
+        "end_timepoint": 1088820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "85": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 85,
+        "begin_timepoint": 1094100.0,
+        "end_timepoint": 1094220.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "86": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 86,
+        "begin_timepoint": 1149420.0,
+        "end_timepoint": 1149540.0,
+        "num_captured_images_from_last_connection": 4,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "87": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 87,
+        "begin_timepoint": 1155420.0,
+        "end_timepoint": 1155540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "88": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 88,
+        "begin_timepoint": 1161360.0,
+        "end_timepoint": 1161480.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "89": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 89,
+        "begin_timepoint": 1167360.0,
+        "end_timepoint": 1167480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "90": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 90,
+        "begin_timepoint": 1173300.0,
+        "end_timepoint": 1173420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5340.0
+    },
+    "91": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 91,
+        "begin_timepoint": 1178760.0,
+        "end_timepoint": 1178820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 55200.0
+    },
+    "92": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 92,
+        "begin_timepoint": 1234020.0,
+        "end_timepoint": 1234140.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "93": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 93,
+        "begin_timepoint": 1240020.0,
+        "end_timepoint": 1240140.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "94": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 94,
+        "begin_timepoint": 1245960.0,
+        "end_timepoint": 1246080.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "95": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 95,
+        "begin_timepoint": 1251960.0,
+        "end_timepoint": 1252020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "96": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 96,
+        "begin_timepoint": 1257900.0,
+        "end_timepoint": 1258020.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "97": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 97,
+        "begin_timepoint": 1275120.0,
+        "end_timepoint": 1275240.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    "98": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 98,
+        "begin_timepoint": 1313220.0,
+        "end_timepoint": 1313340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    "99": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 99,
+        "begin_timepoint": 1318620.0,
+        "end_timepoint": 1318740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    "100": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 100,
+        "begin_timepoint": 1319520.0,
+        "end_timepoint": 1319640.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "101": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 101,
+        "begin_timepoint": 1324620.0,
+        "end_timepoint": 1324740.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5820.0
+    },
+    "102": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 102,
+        "begin_timepoint": 1330560.0,
+        "end_timepoint": 1330680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "103": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 103,
+        "begin_timepoint": 1336560.0,
+        "end_timepoint": 1336620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "104": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 104,
+        "begin_timepoint": 1342500.0,
+        "end_timepoint": 1342620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 11280.0
+    },
+    "105": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 105,
+        "begin_timepoint": 1353900.0,
+        "end_timepoint": 1353960.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 55260.0
+    },
+    "106": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 106,
+        "begin_timepoint": 1409220.0,
+        "end_timepoint": 1409340.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5820.0
+    },
+    "107": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 107,
+        "begin_timepoint": 1415160.0,
+        "end_timepoint": 1415280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "108": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 108,
+        "begin_timepoint": 1421160.0,
+        "end_timepoint": 1421220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "109": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 109,
+        "begin_timepoint": 1427100.0,
+        "end_timepoint": 1427220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "110": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 110,
+        "begin_timepoint": 1433100.0,
+        "end_timepoint": 1433160.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5340.0
+    },
+    "111": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 111,
+        "begin_timepoint": 1438500.0,
+        "end_timepoint": 1438560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 55260.0
+    },
+    "112": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 112,
+        "begin_timepoint": 1493820.0,
+        "end_timepoint": 1493940.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5820.0
+    },
+    "113": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 113,
+        "begin_timepoint": 1499760.0,
+        "end_timepoint": 1499880.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "114": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 114,
+        "begin_timepoint": 1505760.0,
+        "end_timepoint": 1505820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "115": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 115,
+        "begin_timepoint": 1511700.0,
+        "end_timepoint": 1511820.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "116": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 116,
+        "begin_timepoint": 1517700.0,
+        "end_timepoint": 1517820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "117": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 117,
+        "begin_timepoint": 1534920.0,
+        "end_timepoint": 1534980.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    "118": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 118,
+        "begin_timepoint": 1573020.0,
+        "end_timepoint": 1573080.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5340.0
+    },
+    "119": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 119,
+        "begin_timepoint": 1578420.0,
+        "end_timepoint": 1578480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 780.0
+    },
+    "120": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 120,
+        "begin_timepoint": 1579260.0,
+        "end_timepoint": 1579380.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "121": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 121,
+        "begin_timepoint": 1584360.0,
+        "end_timepoint": 1584480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "122": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 122,
+        "begin_timepoint": 1590360.0,
+        "end_timepoint": 1590420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "123": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 123,
+        "begin_timepoint": 1596300.0,
+        "end_timepoint": 1596420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "124": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 124,
+        "begin_timepoint": 1602240.0,
+        "end_timepoint": 1602360.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 17160.0
+    },
+    "125": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 125,
+        "begin_timepoint": 1619520.0,
+        "end_timepoint": 1619580.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17160.0,
+        "time_to_next_connection": 38040.0
+    },
+    "126": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 126,
+        "begin_timepoint": 1657620.0,
+        "end_timepoint": 1657680.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5340.0
+    },
+    "127": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 127,
+        "begin_timepoint": 1663020.0,
+        "end_timepoint": 1663080.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 5880.0
+    },
+    "128": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 128,
+        "begin_timepoint": 1668960.0,
+        "end_timepoint": 1669080.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "129": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 129,
+        "begin_timepoint": 1674960.0,
+        "end_timepoint": 1675020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "130": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 130,
+        "begin_timepoint": 1680900.0,
+        "end_timepoint": 1681020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "131": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 131,
+        "begin_timepoint": 1686840.0,
+        "end_timepoint": 1686960.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5940.0
+    },
+    "132": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 132,
+        "begin_timepoint": 1692900.0,
+        "end_timepoint": 1692960.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5940.0,
+        "time_to_next_connection": 5280.0
+    },
+    "133": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 133,
+        "begin_timepoint": 1698240.0,
+        "end_timepoint": 1698360.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "134": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 134,
+        "begin_timepoint": 1753560.0,
+        "end_timepoint": 1753680.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "135": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 135,
+        "begin_timepoint": 1759560.0,
+        "end_timepoint": 1759620.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "136": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 136,
+        "begin_timepoint": 1765500.0,
+        "end_timepoint": 1765620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "137": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 137,
+        "begin_timepoint": 1771440.0,
+        "end_timepoint": 1771560.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "138": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 138,
+        "begin_timepoint": 1777440.0,
+        "end_timepoint": 1777560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 60600.0
+    },
+    "139": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 139,
+        "begin_timepoint": 1838160.0,
+        "end_timepoint": 1838280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 60600.0,
+        "time_to_next_connection": 780.0
+    },
+    "140": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 140,
+        "begin_timepoint": 1839060.0,
+        "end_timepoint": 1839120.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "141": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 141,
+        "begin_timepoint": 1844100.0,
+        "end_timepoint": 1844220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "142": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 142,
+        "begin_timepoint": 1850100.0,
+        "end_timepoint": 1850220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "143": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 143,
+        "begin_timepoint": 1856040.0,
+        "end_timepoint": 1856160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "144": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 144,
+        "begin_timepoint": 1862040.0,
+        "end_timepoint": 1862160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "145": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 145,
+        "begin_timepoint": 1879260.0,
+        "end_timepoint": 1879380.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    "146": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 146,
+        "begin_timepoint": 1917360.0,
+        "end_timepoint": 1917480.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    "147": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 147,
+        "begin_timepoint": 1922760.0,
+        "end_timepoint": 1922820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 5880.0
+    },
+    "148": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 148,
+        "begin_timepoint": 1928700.0,
+        "end_timepoint": 1928820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "149": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 149,
+        "begin_timepoint": 1934700.0,
+        "end_timepoint": 1934820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "150": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 150,
+        "begin_timepoint": 1940640.0,
+        "end_timepoint": 1940760.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "151": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 151,
+        "begin_timepoint": 1946640.0,
+        "end_timepoint": 1946760.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "152": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 152,
+        "begin_timepoint": 1952640.0,
+        "end_timepoint": 1952700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "153": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 153,
+        "begin_timepoint": 1957980.0,
+        "end_timepoint": 1958100.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "154": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 154,
+        "begin_timepoint": 2013300.0,
+        "end_timepoint": 2013420.0,
+        "num_captured_images_from_last_connection": 6,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "155": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 155,
+        "begin_timepoint": 2019300.0,
+        "end_timepoint": 2019420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "156": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 156,
+        "begin_timepoint": 2025240.0,
+        "end_timepoint": 2025360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "157": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 157,
+        "begin_timepoint": 2031240.0,
+        "end_timepoint": 2031360.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "158": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 158,
+        "begin_timepoint": 2037240.0,
+        "end_timepoint": 2037300.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5340.0
+    },
+    "159": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 159,
+        "begin_timepoint": 2042640.0,
+        "end_timepoint": 2042700.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 55200.0
+    },
+    "160": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 160,
+        "begin_timepoint": 2097900.0,
+        "end_timepoint": 2098020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    "161": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 161,
+        "begin_timepoint": 2103900.0,
+        "end_timepoint": 2104020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "162": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 162,
+        "begin_timepoint": 2109900.0,
+        "end_timepoint": 2109960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "163": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 163,
+        "begin_timepoint": 2115840.0,
+        "end_timepoint": 2115960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "164": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 164,
+        "begin_timepoint": 2121780.0,
+        "end_timepoint": 2121900.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 17100.0
+    },
+    "165": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 165,
+        "begin_timepoint": 2139000.0,
+        "end_timepoint": 2139120.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    "166": {
+        "event": "connection",
+        "duration": 180.0,
+        "timepoint_counter": 166,
+        "begin_timepoint": 2177100.0,
+        "end_timepoint": 2177280.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5220.0
+    },
+    "167": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 167,
+        "begin_timepoint": 2182500.0,
+        "end_timepoint": 2182620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5220.0,
+        "time_to_next_connection": 780.0
+    },
+    "168": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 168,
+        "begin_timepoint": 2183400.0,
+        "end_timepoint": 2183520.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "169": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 169,
+        "begin_timepoint": 2188500.0,
+        "end_timepoint": 2188620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5820.0
+    },
+    "170": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 170,
+        "begin_timepoint": 2194440.0,
+        "end_timepoint": 2194560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "171": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 171,
+        "begin_timepoint": 2200440.0,
+        "end_timepoint": 2200560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "172": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 172,
+        "begin_timepoint": 2206380.0,
+        "end_timepoint": 2206500.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 11280.0
+    },
+    "173": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 173,
+        "begin_timepoint": 2217780.0,
+        "end_timepoint": 2217840.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 55260.0
+    },
+    "174": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 174,
+        "begin_timepoint": 2273100.0,
+        "end_timepoint": 2273220.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5820.0
+    },
+    "175": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 175,
+        "begin_timepoint": 2279040.0,
+        "end_timepoint": 2279160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "176": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 176,
+        "begin_timepoint": 2285040.0,
+        "end_timepoint": 2285160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "177": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 177,
+        "begin_timepoint": 2290980.0,
+        "end_timepoint": 2291100.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "178": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 178,
+        "begin_timepoint": 2296980.0,
+        "end_timepoint": 2297100.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "179": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 179,
+        "begin_timepoint": 2302380.0,
+        "end_timepoint": 2302500.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    "180": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 180,
+        "begin_timepoint": 2357700.0,
+        "end_timepoint": 2357820.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5820.0
+    },
+    "181": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 181,
+        "begin_timepoint": 2363640.0,
+        "end_timepoint": 2363760.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "182": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 182,
+        "begin_timepoint": 2369640.0,
+        "end_timepoint": 2369700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "183": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 183,
+        "begin_timepoint": 2375580.0,
+        "end_timepoint": 2375700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "184": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 184,
+        "begin_timepoint": 2381580.0,
+        "end_timepoint": 2381700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "185": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 185,
+        "begin_timepoint": 2398800.0,
+        "end_timepoint": 2398860.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    "186": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 186,
+        "begin_timepoint": 2436900.0,
+        "end_timepoint": 2437020.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5280.0
+    },
+    "187": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 187,
+        "begin_timepoint": 2442300.0,
+        "end_timepoint": 2442360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    "188": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 188,
+        "begin_timepoint": 2443140.0,
+        "end_timepoint": 2443260.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    "189": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 189,
+        "begin_timepoint": 2448240.0,
+        "end_timepoint": 2448360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    "190": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 190,
+        "begin_timepoint": 2454240.0,
+        "end_timepoint": 2454360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "191": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 191,
+        "begin_timepoint": 2460180.0,
+        "end_timepoint": 2460300.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "192": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 192,
+        "begin_timepoint": 2466180.0,
+        "end_timepoint": 2466300.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    "193": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 193,
+        "begin_timepoint": 2483400.0,
+        "end_timepoint": 2483460.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    "194": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 194,
+        "begin_timepoint": 2521500.0,
+        "end_timepoint": 2521560.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5340.0
+    },
+    "195": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 195,
+        "begin_timepoint": 2526900.0,
+        "end_timepoint": 2526960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 5880.0
+    },
+    "196": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 196,
+        "begin_timepoint": 2532840.0,
+        "end_timepoint": 2532960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "197": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 197,
+        "begin_timepoint": 2538840.0,
+        "end_timepoint": 2538960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    "198": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 198,
+        "begin_timepoint": 2544780.0,
+        "end_timepoint": 2544900.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    "199": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 199,
+        "begin_timepoint": 2550780.0,
+        "end_timepoint": 2550900.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    "200": {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 200,
+        "begin_timepoint": 2556780.0,
+        "end_timepoint": 2556840.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    "201": {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 201,
+        "begin_timepoint": 2562120.0,
+        "end_timepoint": 2562240.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": null
+    }
+}

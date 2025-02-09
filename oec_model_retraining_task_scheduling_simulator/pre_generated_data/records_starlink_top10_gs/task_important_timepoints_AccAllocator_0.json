@@ -1,0 +1,135 @@
+{
+    "0": {
+        "onboard": 0,
+        "finish": 35
+    },
+    "1": {
+        "onboard": 0
+    },
+    "2": {
+        "onboard": 0,
+        "finish": 18
+    },
+    "3": {
+        "onboard": 0,
+        "finish": 25
+    },
+    "4": {
+        "onboard": 0,
+        "finish": 18
+    },
+    "5": {
+        "onboard": 0,
+        "finish": 26
+    },
+    "6": {
+        "onboard": 0,
+        "finish": 28
+    },
+    "7": {
+        "onboard": 0,
+        "finish": 17
+    },
+    "8": {
+        "onboard": 0,
+        "finish": 27
+    },
+    "9": {
+        "onboard": 0,
+        "finish": 34
+    },
+    "10": {
+        "onboard": 16,
+        "finish": 40
+    },
+    "11": {
+        "onboard": 16
+    },
+    "12": {
+        "onboard": 16,
+        "finish": 64
+    },
+    "13": {
+        "onboard": 16,
+        "finish": 39
+    },
+    "14": {
+        "onboard": 16,
+        "finish": 39
+    },
+    "15": {
+        "onboard": 16,
+        "finish": 99
+    },
+    "16": {
+        "onboard": 16,
+        "finish": 36
+    },
+    "17": {
+        "onboard": 29,
+        "finish": 69
+    },
+    "18": {
+        "onboard": 29
+    },
+    "19": {
+        "onboard": 29,
+        "finish": 50
+    },
+    "20": {
+        "onboard": 29,
+        "finish": 87
+    },
+    "21": {
+        "onboard": 29,
+        "finish": 61
+    },
+    "22": {
+        "onboard": 29
+    },
+    "23": {
+        "onboard": 29,
+        "finish": 57
+    },
+    "24": {
+        "onboard": 40
+    },
+    "25": {
+        "onboard": 40,
+        "finish": 78
+    },
+    "26": {
+        "onboard": 40,
+        "finish": 60
+    },
+    "27": {
+        "onboard": 50,
+        "finish": 78
+    },
+    "28": {
+        "onboard": 50,
+        "finish": 88
+    },
+    "29": {
+        "onboard": 50,
+        "finish": 73
+    },
+    "30": {
+        "onboard": 50,
+        "finish": 90
+    },
+    "31": {
+        "onboard": 50,
+        "finish": 80
+    },
+    "32": {
+        "onboard": 61
+    },
+    "33": {
+        "onboard": 61,
+        "finish": 93
+    },
+    "34": {
+        "onboard": 85
+    }
+}

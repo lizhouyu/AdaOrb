@@ -1,0 +1,122 @@
+{
+    "0": {
+        "onboard": 0,
+        "finish": 30
+    },
+    "1": {
+        "onboard": 0,
+        "finish": 18
+    },
+    "2": {
+        "onboard": 0,
+        "finish": 29
+    },
+    "3": {
+        "onboard": 0,
+        "finish": 28
+    },
+    "4": {
+        "onboard": 0,
+        "finish": 30
+    },
+    "5": {
+        "onboard": 0,
+        "finish": 25
+    },
+    "6": {
+        "onboard": 0
+    },
+    "7": {
+        "onboard": 0,
+        "finish": 18
+    },
+    "8": {
+        "onboard": 0,
+        "finish": 39
+    },
+    "9": {
+        "onboard": 16,
+        "finish": 69
+    },
+    "10": {
+        "onboard": 16
+    },
+    "11": {
+        "onboard": 16,
+        "finish": 42
+    },
+    "12": {
+        "onboard": 16,
+        "finish": 39
+    },
+    "13": {
+        "onboard": 29,
+        "finish": 69
+    },
+    "14": {
+        "onboard": 29
+    },
+    "15": {
+        "onboard": 29
+    },
+    "16": {
+        "onboard": 29
+    },
+    "17": {
+        "onboard": 29
+    },
+    "18": {
+        "onboard": 29
+    },
+    "19": {
+        "onboard": 29
+    },
+    "20": {
+        "onboard": 29,
+        "finish": 69
+    },
+    "21": {
+        "onboard": 29
+    },
+    "22": {
+        "onboard": 29
+    },
+    "23": {
+        "onboard": 40
+    },
+    "24": {
+        "onboard": 40,
+        "finish": 87
+    },
+    "25": {
+        "onboard": 40,
+        "finish": 68
+    },
+    "26": {
+        "onboard": 50,
+        "finish": 97
+    },
+    "27": {
+        "onboard": 50,
+        "finish": 97
+    },
+    "28": {
+        "onboard": 50,
+        "finish": 90
+    },
+    "29": {
+        "onboard": 50
+    },
+    "30": {
+        "onboard": 50
+    },
+    "31": {
+        "onboard": 61
+    },
+    "32": {
+        "onboard": 61
+    },
+    "33": {
+        "onboard": 85
+    }
+}

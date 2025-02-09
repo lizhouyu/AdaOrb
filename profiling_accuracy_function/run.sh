@@ -1,0 +1,3 @@
+echo "Run model adaptation experiments"
+python adapt_from_base_to_locations_first_half.py
+python adapt_from_base_to_locations_second_half.py

@@ -1,0 +1,2607 @@
+[
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 1,
+        "begin_timepoint": 25800.0,
+        "end_timepoint": 25920.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 25800.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 2,
+        "begin_timepoint": 31740.0,
+        "end_timepoint": 31860.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 3,
+        "begin_timepoint": 37740.0,
+        "end_timepoint": 37800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 4,
+        "begin_timepoint": 43680.0,
+        "end_timepoint": 43800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 5,
+        "begin_timepoint": 49680.0,
+        "end_timepoint": 49800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 60600.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1335E-1166N",
+        "timepoint": 93240.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1204E-1202N",
+        "timepoint": 99180.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 6,
+        "begin_timepoint": 110400.0,
+        "end_timepoint": 110460.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 60600.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 7,
+        "begin_timepoint": 111240.0,
+        "end_timepoint": 111360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 8,
+        "begin_timepoint": 116340.0,
+        "end_timepoint": 116460.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 9,
+        "begin_timepoint": 122340.0,
+        "end_timepoint": 122400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 10,
+        "begin_timepoint": 128280.0,
+        "end_timepoint": 128400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 11,
+        "begin_timepoint": 134280.0,
+        "end_timepoint": 134400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17040.0
+    },
+    {
+        "event": "connection",
+        "duration": 180.0,
+        "timepoint_counter": 12,
+        "begin_timepoint": 151440.0,
+        "end_timepoint": 151620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 17040.0,
+        "time_to_next_connection": 37980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1669E-1160N",
+        "timepoint": 165720.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0358E-1220N",
+        "timepoint": 175740.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1210E-1025N",
+        "timepoint": 184260.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1185E-0935N",
+        "timepoint": 184500.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 13,
+        "begin_timepoint": 189600.0,
+        "end_timepoint": 189720.0,
+        "num_captured_images_from_last_connection": 4,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 14,
+        "begin_timepoint": 195000.0,
+        "end_timepoint": 195060.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 840.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 15,
+        "begin_timepoint": 195900.0,
+        "end_timepoint": 195960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 840.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 16,
+        "begin_timepoint": 200940.0,
+        "end_timepoint": 201060.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1691E-1211N",
+        "timepoint": 205920.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 17,
+        "begin_timepoint": 206940.0,
+        "end_timepoint": 207000.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 18,
+        "begin_timepoint": 212880.0,
+        "end_timepoint": 213000.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 19,
+        "begin_timepoint": 218820.0,
+        "end_timepoint": 218940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 11280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 20,
+        "begin_timepoint": 230220.0,
+        "end_timepoint": 230340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0387E-1276N",
+        "timepoint": 260460.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1296E-1198N",
+        "timepoint": 268320.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1049E-1370N",
+        "timepoint": 280020.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 21,
+        "begin_timepoint": 285540.0,
+        "end_timepoint": 285660.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 22,
+        "begin_timepoint": 291540.0,
+        "end_timepoint": 291600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 23,
+        "begin_timepoint": 297480.0,
+        "end_timepoint": 297600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 24,
+        "begin_timepoint": 303420.0,
+        "end_timepoint": 303540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 25,
+        "begin_timepoint": 309420.0,
+        "end_timepoint": 309540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 26,
+        "begin_timepoint": 314820.0,
+        "end_timepoint": 314940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1617E-1207N",
+        "timepoint": 340800.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 27,
+        "begin_timepoint": 370140.0,
+        "end_timepoint": 370260.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 28,
+        "begin_timepoint": 376140.0,
+        "end_timepoint": 376260.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 29,
+        "begin_timepoint": 382080.0,
+        "end_timepoint": 382200.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 30,
+        "begin_timepoint": 388020.0,
+        "end_timepoint": 388140.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0487E-1246N",
+        "timepoint": 389040.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0457E-1135N",
+        "timepoint": 389340.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 31,
+        "begin_timepoint": 394020.0,
+        "end_timepoint": 394140.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1204E-1204N",
+        "timepoint": 399240.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1172E-1306N",
+        "timepoint": 399480.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1014E-1375N",
+        "timepoint": 405660.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 32,
+        "begin_timepoint": 411240.0,
+        "end_timepoint": 411360.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0331E-1257N",
+        "timepoint": 435600.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1209E-1113N",
+        "timepoint": 443760.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 33,
+        "begin_timepoint": 449340.0,
+        "end_timepoint": 449460.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 34,
+        "begin_timepoint": 454740.0,
+        "end_timepoint": 454860.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 35,
+        "begin_timepoint": 455640.0,
+        "end_timepoint": 455760.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4920.0
+    },
+    {
+        "event": "connection",
+        "duration": 180.0,
+        "timepoint_counter": 36,
+        "begin_timepoint": 460680.0,
+        "end_timepoint": 460860.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4920.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 37,
+        "begin_timepoint": 466680.0,
+        "end_timepoint": 466800.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 38,
+        "begin_timepoint": 472620.0,
+        "end_timepoint": 472740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 39,
+        "begin_timepoint": 478620.0,
+        "end_timepoint": 478740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 66540.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 40,
+        "begin_timepoint": 545280.0,
+        "end_timepoint": 545400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 66540.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 41,
+        "begin_timepoint": 551280.0,
+        "end_timepoint": 551400.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0632E-0892N",
+        "timepoint": 553140.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 42,
+        "begin_timepoint": 557220.0,
+        "end_timepoint": 557340.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0577E-1243N",
+        "timepoint": 558180.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 43,
+        "begin_timepoint": 563220.0,
+        "end_timepoint": 563340.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 44,
+        "begin_timepoint": 569220.0,
+        "end_timepoint": 569280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 45,
+        "begin_timepoint": 574560.0,
+        "end_timepoint": 574680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0586E-1127N",
+        "timepoint": 598380.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 46,
+        "begin_timepoint": 629880.0,
+        "end_timepoint": 630000.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 47,
+        "begin_timepoint": 635880.0,
+        "end_timepoint": 636000.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 48,
+        "begin_timepoint": 641880.0,
+        "end_timepoint": 641940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0586E-1127N",
+        "timepoint": 643080.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 49,
+        "begin_timepoint": 647820.0,
+        "end_timepoint": 647940.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 50,
+        "begin_timepoint": 653760.0,
+        "end_timepoint": 653880.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 55260.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1209E-1113N",
+        "timepoint": 658740.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1848E-0793N",
+        "timepoint": 674220.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0595E-1278N",
+        "timepoint": 683340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 51,
+        "begin_timepoint": 709140.0,
+        "end_timepoint": 709200.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 52,
+        "begin_timepoint": 714480.0,
+        "end_timepoint": 714600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 53,
+        "begin_timepoint": 715380.0,
+        "end_timepoint": 715500.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 54,
+        "begin_timepoint": 720480.0,
+        "end_timepoint": 720600.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1669E-1160N",
+        "timepoint": 725340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 55,
+        "begin_timepoint": 726480.0,
+        "end_timepoint": 726540.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 56,
+        "begin_timepoint": 732420.0,
+        "end_timepoint": 732540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0506E-1204N",
+        "timepoint": 733500.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 57,
+        "begin_timepoint": 738360.0,
+        "end_timepoint": 738480.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0368E-1245N",
+        "timepoint": 739440.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1049E-1370N",
+        "timepoint": 750000.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 58,
+        "begin_timepoint": 755580.0,
+        "end_timepoint": 755700.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0368E-1245N",
+        "timepoint": 779940.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 59,
+        "begin_timepoint": 793740.0,
+        "end_timepoint": 793800.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 11280.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0977E-1187N",
+        "timepoint": 799980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 60,
+        "begin_timepoint": 805080.0,
+        "end_timepoint": 805200.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0760E-0887N",
+        "timepoint": 806880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1703E-1219N",
+        "timepoint": 810060.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 61,
+        "begin_timepoint": 811020.0,
+        "end_timepoint": 811140.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 62,
+        "begin_timepoint": 817020.0,
+        "end_timepoint": 817140.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1438E-1134N",
+        "timepoint": 821940.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 63,
+        "begin_timepoint": 822960.0,
+        "end_timepoint": 823080.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1289E-1169N",
+        "timepoint": 828060.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 64,
+        "begin_timepoint": 828960.0,
+        "end_timepoint": 829080.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 65,
+        "begin_timepoint": 834360.0,
+        "end_timepoint": 834480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1748E-1247N",
+        "timepoint": 854220.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0632E-0892N",
+        "timepoint": 857460.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0566E-1185N",
+        "timepoint": 858300.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1438E-1134N",
+        "timepoint": 866580.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 66,
+        "begin_timepoint": 889680.0,
+        "end_timepoint": 889800.0,
+        "num_captured_images_from_last_connection": 4,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1848E-0793N",
+        "timepoint": 893460.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 67,
+        "begin_timepoint": 895620.0,
+        "end_timepoint": 895740.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 68,
+        "begin_timepoint": 901620.0,
+        "end_timepoint": 901740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 69,
+        "begin_timepoint": 907560.0,
+        "end_timepoint": 907680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 70,
+        "begin_timepoint": 913560.0,
+        "end_timepoint": 913680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 60600.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1204E-1202N",
+        "timepoint": 963060.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 71,
+        "begin_timepoint": 974280.0,
+        "end_timepoint": 974400.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 60600.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 72,
+        "begin_timepoint": 975180.0,
+        "end_timepoint": 975240.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 73,
+        "begin_timepoint": 980220.0,
+        "end_timepoint": 980340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 74,
+        "begin_timepoint": 986220.0,
+        "end_timepoint": 986340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 75,
+        "begin_timepoint": 992160.0,
+        "end_timepoint": 992280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 76,
+        "begin_timepoint": 998160.0,
+        "end_timepoint": 998280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0357E-1223N",
+        "timepoint": 999240.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 77,
+        "begin_timepoint": 1015380.0,
+        "end_timepoint": 1015500.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1669E-1153N",
+        "timepoint": 1029660.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0506E-1204N",
+        "timepoint": 1033560.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1210E-1025N",
+        "timepoint": 1048140.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 78,
+        "begin_timepoint": 1053480.0,
+        "end_timepoint": 1053600.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 79,
+        "begin_timepoint": 1058880.0,
+        "end_timepoint": 1058940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 80,
+        "begin_timepoint": 1064820.0,
+        "end_timepoint": 1064940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 81,
+        "begin_timepoint": 1070820.0,
+        "end_timepoint": 1070940.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 82,
+        "begin_timepoint": 1076760.0,
+        "end_timepoint": 1076880.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0544E-1228N",
+        "timepoint": 1077780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 83,
+        "begin_timepoint": 1082760.0,
+        "end_timepoint": 1082880.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 84,
+        "begin_timepoint": 1088760.0,
+        "end_timepoint": 1088820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1200E-0847N",
+        "timepoint": 1092960.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1185E-0935N",
+        "timepoint": 1093200.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 85,
+        "begin_timepoint": 1094100.0,
+        "end_timepoint": 1094220.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0977E-1187N",
+        "timepoint": 1099980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0760E-0887N",
+        "timepoint": 1111200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0387E-1276N",
+        "timepoint": 1124340.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1172E-1306N",
+        "timepoint": 1138020.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 86,
+        "begin_timepoint": 1149420.0,
+        "end_timepoint": 1149540.0,
+        "num_captured_images_from_last_connection": 4,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 87,
+        "begin_timepoint": 1155420.0,
+        "end_timepoint": 1155540.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0683E-1006N",
+        "timepoint": 1156920.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 88,
+        "begin_timepoint": 1161360.0,
+        "end_timepoint": 1161480.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 89,
+        "begin_timepoint": 1167360.0,
+        "end_timepoint": 1167480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 90,
+        "begin_timepoint": 1173300.0,
+        "end_timepoint": 1173420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 91,
+        "begin_timepoint": 1178760.0,
+        "end_timepoint": 1178820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0577E-1243N",
+        "timepoint": 1202820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0457E-1135N",
+        "timepoint": 1208580.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1015E-1062N",
+        "timepoint": 1229280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 92,
+        "begin_timepoint": 1234020.0,
+        "end_timepoint": 1234140.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 93,
+        "begin_timepoint": 1240020.0,
+        "end_timepoint": 1240140.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 94,
+        "begin_timepoint": 1245960.0,
+        "end_timepoint": 1246080.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 95,
+        "begin_timepoint": 1251960.0,
+        "end_timepoint": 1252020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0487E-1246N",
+        "timepoint": 1252920.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0457E-1135N",
+        "timepoint": 1253220.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 96,
+        "begin_timepoint": 1257900.0,
+        "end_timepoint": 1258020.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1204E-1204N",
+        "timepoint": 1263120.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1014E-1375N",
+        "timepoint": 1269540.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 97,
+        "begin_timepoint": 1275120.0,
+        "end_timepoint": 1275240.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 98,
+        "begin_timepoint": 1313220.0,
+        "end_timepoint": 1313340.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 99,
+        "begin_timepoint": 1318620.0,
+        "end_timepoint": 1318740.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 100,
+        "begin_timepoint": 1319520.0,
+        "end_timepoint": 1319640.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0924E-1108N",
+        "timepoint": 1319760.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 101,
+        "begin_timepoint": 1324620.0,
+        "end_timepoint": 1324740.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 102,
+        "begin_timepoint": 1330560.0,
+        "end_timepoint": 1330680.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 103,
+        "begin_timepoint": 1336560.0,
+        "end_timepoint": 1336620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 104,
+        "begin_timepoint": 1342500.0,
+        "end_timepoint": 1342620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 11280.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1276E-1107N",
+        "timepoint": 1347420.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 105,
+        "begin_timepoint": 1353900.0,
+        "end_timepoint": 1353960.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 55260.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1138E-1216N",
+        "timepoint": 1398000.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 106,
+        "begin_timepoint": 1409220.0,
+        "end_timepoint": 1409340.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 107,
+        "begin_timepoint": 1415160.0,
+        "end_timepoint": 1415280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 108,
+        "begin_timepoint": 1421160.0,
+        "end_timepoint": 1421220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 109,
+        "begin_timepoint": 1427100.0,
+        "end_timepoint": 1427220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1296E-1198N",
+        "timepoint": 1432260.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 110,
+        "begin_timepoint": 1433100.0,
+        "end_timepoint": 1433160.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 111,
+        "begin_timepoint": 1438500.0,
+        "end_timepoint": 1438560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 55260.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1615E-1206N",
+        "timepoint": 1464480.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0434E-1218N",
+        "timepoint": 1468560.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 112,
+        "begin_timepoint": 1493820.0,
+        "end_timepoint": 1493940.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 113,
+        "begin_timepoint": 1499760.0,
+        "end_timepoint": 1499880.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 114,
+        "begin_timepoint": 1505760.0,
+        "end_timepoint": 1505820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0586E-1127N",
+        "timepoint": 1506960.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 115,
+        "begin_timepoint": 1511700.0,
+        "end_timepoint": 1511820.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 116,
+        "begin_timepoint": 1517700.0,
+        "end_timepoint": 1517820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0331E-1257N",
+        "timepoint": 1518720.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 117,
+        "begin_timepoint": 1534920.0,
+        "end_timepoint": 1534980.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 118,
+        "begin_timepoint": 1573020.0,
+        "end_timepoint": 1573080.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 119,
+        "begin_timepoint": 1578420.0,
+        "end_timepoint": 1578480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 120,
+        "begin_timepoint": 1579260.0,
+        "end_timepoint": 1579380.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 121,
+        "begin_timepoint": 1584360.0,
+        "end_timepoint": 1584480.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 122,
+        "begin_timepoint": 1590360.0,
+        "end_timepoint": 1590420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 123,
+        "begin_timepoint": 1596300.0,
+        "end_timepoint": 1596420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0506E-1204N",
+        "timepoint": 1597380.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 124,
+        "begin_timepoint": 1602240.0,
+        "end_timepoint": 1602360.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 17160.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1049E-1370N",
+        "timepoint": 1613880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 125,
+        "begin_timepoint": 1619520.0,
+        "end_timepoint": 1619580.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17160.0,
+        "time_to_next_connection": 38040.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0368E-1245N",
+        "timepoint": 1643820.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 126,
+        "begin_timepoint": 1657620.0,
+        "end_timepoint": 1657680.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 127,
+        "begin_timepoint": 1663020.0,
+        "end_timepoint": 1663080.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0977E-1187N",
+        "timepoint": 1663860.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 128,
+        "begin_timepoint": 1668960.0,
+        "end_timepoint": 1669080.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 129,
+        "begin_timepoint": 1674960.0,
+        "end_timepoint": 1675020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 130,
+        "begin_timepoint": 1680900.0,
+        "end_timepoint": 1681020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1438E-1134N",
+        "timepoint": 1685820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 131,
+        "begin_timepoint": 1686840.0,
+        "end_timepoint": 1686960.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5940.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1289E-1169N",
+        "timepoint": 1691940.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 132,
+        "begin_timepoint": 1692900.0,
+        "end_timepoint": 1692960.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5940.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1138E-1216N",
+        "timepoint": 1698120.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 133,
+        "begin_timepoint": 1698240.0,
+        "end_timepoint": 1698360.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1748E-1247N",
+        "timepoint": 1718100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1439E-1134N",
+        "timepoint": 1730460.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 134,
+        "begin_timepoint": 1753560.0,
+        "end_timepoint": 1753680.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1848E-0793N",
+        "timepoint": 1757340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 135,
+        "begin_timepoint": 1759560.0,
+        "end_timepoint": 1759620.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 136,
+        "begin_timepoint": 1765500.0,
+        "end_timepoint": 1765620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0571E-1075N",
+        "timepoint": 1766880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1481E-1119N",
+        "timepoint": 1770360.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 137,
+        "begin_timepoint": 1771440.0,
+        "end_timepoint": 1771560.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 138,
+        "begin_timepoint": 1777440.0,
+        "end_timepoint": 1777560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 60600.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 139,
+        "begin_timepoint": 1838160.0,
+        "end_timepoint": 1838280.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 60600.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 140,
+        "begin_timepoint": 1839060.0,
+        "end_timepoint": 1839120.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 141,
+        "begin_timepoint": 1844100.0,
+        "end_timepoint": 1844220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 142,
+        "begin_timepoint": 1850100.0,
+        "end_timepoint": 1850220.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 143,
+        "begin_timepoint": 1856040.0,
+        "end_timepoint": 1856160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 144,
+        "begin_timepoint": 1862040.0,
+        "end_timepoint": 1862160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 145,
+        "begin_timepoint": 1879260.0,
+        "end_timepoint": 1879380.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1669E-1153N",
+        "timepoint": 1893540.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0506E-1204N",
+        "timepoint": 1897440.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1210E-1025N",
+        "timepoint": 1912020.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 146,
+        "begin_timepoint": 1917360.0,
+        "end_timepoint": 1917480.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 147,
+        "begin_timepoint": 1922760.0,
+        "end_timepoint": 1922820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 148,
+        "begin_timepoint": 1928700.0,
+        "end_timepoint": 1928820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 149,
+        "begin_timepoint": 1934700.0,
+        "end_timepoint": 1934820.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 150,
+        "begin_timepoint": 1940640.0,
+        "end_timepoint": 1940760.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0544E-1228N",
+        "timepoint": 1941660.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1389E-1284N",
+        "timepoint": 1945980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 151,
+        "begin_timepoint": 1946640.0,
+        "end_timepoint": 1946760.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 152,
+        "begin_timepoint": 1952640.0,
+        "end_timepoint": 1952700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1200E-0847N",
+        "timepoint": 1956840.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1185E-0935N",
+        "timepoint": 1957080.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 153,
+        "begin_timepoint": 1957980.0,
+        "end_timepoint": 1958100.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1015E-1062N",
+        "timepoint": 1963500.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0977E-1187N",
+        "timepoint": 1963860.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0760E-0887N",
+        "timepoint": 1975080.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0544E-1228N",
+        "timepoint": 1982100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1289E-1169N",
+        "timepoint": 1996200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1276E-1107N",
+        "timepoint": 1996380.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 154,
+        "begin_timepoint": 2013300.0,
+        "end_timepoint": 2013420.0,
+        "num_captured_images_from_last_connection": 6,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 155,
+        "begin_timepoint": 2019300.0,
+        "end_timepoint": 2019420.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 156,
+        "begin_timepoint": 2025240.0,
+        "end_timepoint": 2025360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0595E-1278N",
+        "timepoint": 2026140.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 157,
+        "begin_timepoint": 2031240.0,
+        "end_timepoint": 2031360.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 158,
+        "begin_timepoint": 2037240.0,
+        "end_timepoint": 2037300.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5340.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1210E-1025N",
+        "timepoint": 2041920.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 159,
+        "begin_timepoint": 2042640.0,
+        "end_timepoint": 2042700.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 160,
+        "begin_timepoint": 2097900.0,
+        "end_timepoint": 2098020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 161,
+        "begin_timepoint": 2103900.0,
+        "end_timepoint": 2104020.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 162,
+        "begin_timepoint": 2109900.0,
+        "end_timepoint": 2109960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 163,
+        "begin_timepoint": 2115840.0,
+        "end_timepoint": 2115960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 164,
+        "begin_timepoint": 2121780.0,
+        "end_timepoint": 2121900.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0361E-1300N",
+        "timepoint": 2122740.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1025E-1366N",
+        "timepoint": 2133420.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 165,
+        "begin_timepoint": 2139000.0,
+        "end_timepoint": 2139120.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 37980.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1185E-0935N",
+        "timepoint": 2172060.0
+    },
+    {
+        "event": "connection",
+        "duration": 180.0,
+        "timepoint_counter": 166,
+        "begin_timepoint": 2177100.0,
+        "end_timepoint": 2177280.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 37980.0,
+        "time_to_next_connection": 5220.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 167,
+        "begin_timepoint": 2182500.0,
+        "end_timepoint": 2182620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5220.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 168,
+        "begin_timepoint": 2183400.0,
+        "end_timepoint": 2183520.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 169,
+        "begin_timepoint": 2188500.0,
+        "end_timepoint": 2188620.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 170,
+        "begin_timepoint": 2194440.0,
+        "end_timepoint": 2194560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 171,
+        "begin_timepoint": 2200440.0,
+        "end_timepoint": 2200560.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 172,
+        "begin_timepoint": 2206380.0,
+        "end_timepoint": 2206500.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 11280.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 173,
+        "begin_timepoint": 2217780.0,
+        "end_timepoint": 2217840.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 11280.0,
+        "time_to_next_connection": 55260.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0571E-1075N",
+        "timepoint": 2241420.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1200E-0847N",
+        "timepoint": 2256900.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1138E-1216N",
+        "timepoint": 2261880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 174,
+        "begin_timepoint": 2273100.0,
+        "end_timepoint": 2273220.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 55260.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 175,
+        "begin_timepoint": 2279040.0,
+        "end_timepoint": 2279160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 176,
+        "begin_timepoint": 2285040.0,
+        "end_timepoint": 2285160.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0566E-1185N",
+        "timepoint": 2286120.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 177,
+        "begin_timepoint": 2290980.0,
+        "end_timepoint": 2291100.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1296E-1198N",
+        "timepoint": 2296140.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 178,
+        "begin_timepoint": 2296980.0,
+        "end_timepoint": 2297100.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 179,
+        "begin_timepoint": 2302380.0,
+        "end_timepoint": 2302500.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 55200.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1615E-1206N",
+        "timepoint": 2328360.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0434E-1218N",
+        "timepoint": 2332440.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 180,
+        "begin_timepoint": 2357700.0,
+        "end_timepoint": 2357820.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 55200.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 181,
+        "begin_timepoint": 2363640.0,
+        "end_timepoint": 2363760.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 182,
+        "begin_timepoint": 2369640.0,
+        "end_timepoint": 2369700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 183,
+        "begin_timepoint": 2375580.0,
+        "end_timepoint": 2375700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 184,
+        "begin_timepoint": 2381580.0,
+        "end_timepoint": 2381700.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1172E-1306N",
+        "timepoint": 2387040.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 185,
+        "begin_timepoint": 2398800.0,
+        "end_timepoint": 2398860.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1389E-1284N",
+        "timepoint": 2424840.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1209E-1113N",
+        "timepoint": 2431320.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 186,
+        "begin_timepoint": 2436900.0,
+        "end_timepoint": 2437020.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 187,
+        "begin_timepoint": 2442300.0,
+        "end_timepoint": 2442360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": 780.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 188,
+        "begin_timepoint": 2443140.0,
+        "end_timepoint": 2443260.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 780.0,
+        "time_to_next_connection": 4980.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 189,
+        "begin_timepoint": 2448240.0,
+        "end_timepoint": 2448360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 4980.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 190,
+        "begin_timepoint": 2454240.0,
+        "end_timepoint": 2454360.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1538E-1163N",
+        "timepoint": 2459160.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 191,
+        "begin_timepoint": 2460180.0,
+        "end_timepoint": 2460300.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0506E-1204N",
+        "timepoint": 2461260.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 192,
+        "begin_timepoint": 2466180.0,
+        "end_timepoint": 2466300.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 17100.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0387E-1276N",
+        "timepoint": 2467140.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1049E-1370N",
+        "timepoint": 2477760.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 193,
+        "begin_timepoint": 2483400.0,
+        "end_timepoint": 2483460.0,
+        "num_captured_images_from_last_connection": 2,
+        "working_time_from_last_connection": 17100.0,
+        "time_to_next_connection": 38040.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0368E-1245N",
+        "timepoint": 2507700.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0361E-1300N",
+        "timepoint": 2507820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1298E-1322N",
+        "timepoint": 2515380.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 194,
+        "begin_timepoint": 2521500.0,
+        "end_timepoint": 2521560.0,
+        "num_captured_images_from_last_connection": 3,
+        "working_time_from_last_connection": 38040.0,
+        "time_to_next_connection": 5340.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 195,
+        "begin_timepoint": 2526900.0,
+        "end_timepoint": 2526960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5340.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 196,
+        "begin_timepoint": 2532840.0,
+        "end_timepoint": 2532960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 197,
+        "begin_timepoint": 2538840.0,
+        "end_timepoint": 2538960.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5820.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0632E-0892N",
+        "timepoint": 2540700.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 198,
+        "begin_timepoint": 2544780.0,
+        "end_timepoint": 2544900.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5820.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1439E-1134N",
+        "timepoint": 2549700.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 199,
+        "begin_timepoint": 2550780.0,
+        "end_timepoint": 2550900.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5880.0
+    },
+    {
+        "event": "connection",
+        "duration": 60.0,
+        "timepoint_counter": 200,
+        "begin_timepoint": 2556780.0,
+        "end_timepoint": 2556840.0,
+        "num_captured_images_from_last_connection": 0,
+        "working_time_from_last_connection": 5880.0,
+        "time_to_next_connection": 5280.0
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "1138E-1216N",
+        "timepoint": 2562000.0
+    },
+    {
+        "event": "connection",
+        "duration": 120.0,
+        "timepoint_counter": 201,
+        "begin_timepoint": 2562120.0,
+        "end_timepoint": 2562240.0,
+        "num_captured_images_from_last_connection": 1,
+        "working_time_from_last_connection": 5280.0,
+        "time_to_next_connection": null
+    },
+    {
+        "event": "capture_image",
+        "image_prefix": "0586E-1127N",
+        "timepoint": 2585940.0
+    }
+]

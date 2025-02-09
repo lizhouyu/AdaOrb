@@ -1,0 +1,2400 @@
+Processing epoch 1
+[07.22.24 14:09:31] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_1.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:09:31] Built model...
+[07.22.24 14:09:32] Loading checkpoint from checkpoints/original/epoch_1.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:09:32] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:09:33] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:09:33] Completed Pruning of 2944 channels
+[07.22.24 14:09:33] Saving pruned to checkpoints/pruned/epoch_1/pruned.pt...
+[07.22.24 14:09:33] Pruned channels to checkpoints/pruned/epoch_1/pruned_channels.txt...
+[07.22.24 14:09:33] Re-Built model using checkpoints/pruned/epoch_1/pruned_channels.txt...
+[07.22.24 14:09:33] Re-Loaded checkpoint from checkpoints/pruned/epoch_1/pruned.pt...
+[07.22.24 14:09:34] FLOPs after pruning: 
+[2764800, 25804800, 6912000, 14515200, 1785600, 4204800, 619200, 1008000, 194400, 421200, 2491200, 1252800, 7315200, 3801600, 18892800, 6220800, 56217600, 18432000]
+[07.22.24 14:09:37] Finished finetuning
+[07.22.24 14:09:37] Finetuned loss: 0.6798770102587613
+[07.22.24 14:09:37] Saving finetuned to checkpoints/pruned/epoch_1/finetuned.pt...
+[07.22.24 14:10:04] Validation Dice Coeff: 0.5004907825887375
+device:  cuda
+Processing epoch 2
+[07.22.24 14:10:07] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_2.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:10:08] Built model...
+[07.22.24 14:10:08] Loading checkpoint from checkpoints/original/epoch_2.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:10:08] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:10:09] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:10:09] Completed Pruning of 2944 channels
+[07.22.24 14:10:09] Saving pruned to checkpoints/pruned/epoch_2/pruned.pt...
+[07.22.24 14:10:09] Pruned channels to checkpoints/pruned/epoch_2/pruned_channels.txt...
+[07.22.24 14:10:09] Re-Built model using checkpoints/pruned/epoch_2/pruned_channels.txt...
+[07.22.24 14:10:09] Re-Loaded checkpoint from checkpoints/pruned/epoch_2/pruned.pt...
+[07.22.24 14:10:10] FLOPs after pruning: 
+[2764800, 35020800, 5068800, 10598400, 2476800, 3628800, 1180800, 1843200, 417600, 370800, 2764800, 979200, 8236800, 2361600, 19123200, 5990400, 45158400, 18432000]
+[07.22.24 14:10:13] Finished finetuning
+[07.22.24 14:10:13] Finetuned loss: 0.7998443733562123
+[07.22.24 14:10:13] Saving finetuned to checkpoints/pruned/epoch_2/finetuned.pt...
+[07.22.24 14:10:38] Validation Dice Coeff: 0.5826068215855973
+device:  cuda
+Processing epoch 3
+[07.22.24 14:10:41] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_3.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:10:41] Built model...
+[07.22.24 14:10:41] Loading checkpoint from checkpoints/original/epoch_3.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:10:41] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:10:43] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:10:43] Completed Pruning of 2944 channels
+[07.22.24 14:10:43] Saving pruned to checkpoints/pruned/epoch_3/pruned.pt...
+[07.22.24 14:10:43] Pruned channels to checkpoints/pruned/epoch_3/pruned_channels.txt...
+[07.22.24 14:10:43] Re-Built model using checkpoints/pruned/epoch_3/pruned_channels.txt...
+[07.22.24 14:10:43] Re-Loaded checkpoint from checkpoints/pruned/epoch_3/pruned.pt...
+[07.22.24 14:10:44] FLOPs after pruning: 
+[2764800, 28569600, 7372800, 8524800, 1670400, 3110400, 604800, 1483200, 288000, 349200, 3168000, 1468800, 8179200, 2361600, 20736000, 3916800, 45158400, 13824000]
+[07.22.24 14:10:47] Finished finetuning
+[07.22.24 14:10:47] Finetuned loss: 0.44828809933228925
+[07.22.24 14:10:47] Saving finetuned to checkpoints/pruned/epoch_3/finetuned.pt...
+[07.22.24 14:11:10] Validation Dice Coeff: 0.5270435441553535
+device:  cuda
+Processing epoch 4
+[07.22.24 14:11:13] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_4.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:11:13] Built model...
+[07.22.24 14:11:13] Loading checkpoint from checkpoints/original/epoch_4.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:11:13] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:11:15] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:11:15] Completed Pruning of 2944 channels
+[07.22.24 14:11:15] Saving pruned to checkpoints/pruned/epoch_4/pruned.pt...
+[07.22.24 14:11:15] Pruned channels to checkpoints/pruned/epoch_4/pruned_channels.txt...
+[07.22.24 14:11:15] Re-Built model using checkpoints/pruned/epoch_4/pruned_channels.txt...
+[07.22.24 14:11:15] Re-Loaded checkpoint from checkpoints/pruned/epoch_4/pruned.pt...
+[07.22.24 14:11:15] FLOPs after pruning: 
+[2764800, 31334400, 5299200, 10137600, 1785600, 4723200, 1008000, 1310400, 262800, 424800, 2419200, 1195200, 8985600, 2188800, 19353600, 6220800, 43315200, 16588800]
+[07.22.24 14:11:18] Finished finetuning
+[07.22.24 14:11:18] Finetuned loss: 0.5960253531282599
+[07.22.24 14:11:18] Saving finetuned to checkpoints/pruned/epoch_4/finetuned.pt...
+[07.22.24 14:11:44] Validation Dice Coeff: 0.5495987459778311
+device:  cuda
+Processing epoch 5
+[07.22.24 14:11:47] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_5.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:11:47] Built model...
+[07.22.24 14:11:47] Loading checkpoint from checkpoints/original/epoch_5.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:11:47] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:11:49] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:11:49] Completed Pruning of 2944 channels
+[07.22.24 14:11:49] Saving pruned to checkpoints/pruned/epoch_5/pruned.pt...
+[07.22.24 14:11:49] Pruned channels to checkpoints/pruned/epoch_5/pruned_channels.txt...
+[07.22.24 14:11:49] Re-Built model using checkpoints/pruned/epoch_5/pruned_channels.txt...
+[07.22.24 14:11:49] Re-Loaded checkpoint from checkpoints/pruned/epoch_5/pruned.pt...
+[07.22.24 14:11:50] FLOPs after pruning: 
+[2764800, 31334400, 5529600, 8524800, 3340800, 4953600, 1238400, 1195200, 280800, 241200, 2808000, 864000, 8179200, 2880000, 22579200, 8064000, 57139200, 28569600]
+[07.22.24 14:11:54] Finished finetuning
+[07.22.24 14:11:54] Finetuned loss: 0.7843527631326155
+[07.22.24 14:11:54] Saving finetuned to checkpoints/pruned/epoch_5/finetuned.pt...
+[07.22.24 14:12:28] Validation Dice Coeff: 0.5394557616652739
+device:  cuda
+Processing epoch 6
+[07.22.24 14:12:31] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_6.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:12:31] Built model...
+[07.22.24 14:12:31] Loading checkpoint from checkpoints/original/epoch_6.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:12:31] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:12:33] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:12:33] Completed Pruning of 2944 channels
+[07.22.24 14:12:33] Saving pruned to checkpoints/pruned/epoch_6/pruned.pt...
+[07.22.24 14:12:33] Pruned channels to checkpoints/pruned/epoch_6/pruned_channels.txt...
+[07.22.24 14:12:33] Re-Built model using checkpoints/pruned/epoch_6/pruned_channels.txt...
+[07.22.24 14:12:33] Re-Loaded checkpoint from checkpoints/pruned/epoch_6/pruned.pt...
+[07.22.24 14:12:33] FLOPs after pruning: 
+[2764800, 25804800, 6681600, 10598400, 3859200, 4032000, 1296000, 1526400, 381600, 252000, 3024000, 950400, 8524800, 2592000, 25344000, 6681600, 51609600, 13824000]
+[07.22.24 14:12:37] Finished finetuning
+[07.22.24 14:12:37] Finetuned loss: 0.6635300679640337
+[07.22.24 14:12:37] Saving finetuned to checkpoints/pruned/epoch_6/finetuned.pt...
+[07.22.24 14:13:03] Validation Dice Coeff: 0.5337474797370565
+device:  cuda
+Processing epoch 7
+[07.22.24 14:13:06] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_7.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:13:06] Built model...
+[07.22.24 14:13:06] Loading checkpoint from checkpoints/original/epoch_7.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:13:06] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:13:08] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:13:08] Completed Pruning of 2944 channels
+[07.22.24 14:13:08] Saving pruned to checkpoints/pruned/epoch_7/pruned.pt...
+[07.22.24 14:13:08] Pruned channels to checkpoints/pruned/epoch_7/pruned_channels.txt...
+[07.22.24 14:13:08] Re-Built model using checkpoints/pruned/epoch_7/pruned_channels.txt...
+[07.22.24 14:13:08] Re-Loaded checkpoint from checkpoints/pruned/epoch_7/pruned.pt...
+[07.22.24 14:13:08] FLOPs after pruning: 
+[2764800, 28569600, 7142400, 10137600, 1267200, 3744000, 964800, 1324800, 396000, 252000, 3528000, 1382400, 9100800, 2131200, 15667200, 5760000, 41472000, 23961600]
+[07.22.24 14:13:11] Finished finetuning
+[07.22.24 14:13:11] Finetuned loss: 0.6642667705362494
+[07.22.24 14:13:11] Saving finetuned to checkpoints/pruned/epoch_7/finetuned.pt...
+[07.22.24 14:13:35] Validation Dice Coeff: 0.5337520598399524
+device:  cuda
+Processing epoch 8
+[07.22.24 14:13:38] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_8.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:13:38] Built model...
+[07.22.24 14:13:38] Loading checkpoint from checkpoints/original/epoch_8.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:13:38] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:13:40] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:13:40] Completed Pruning of 2944 channels
+[07.22.24 14:13:40] Saving pruned to checkpoints/pruned/epoch_8/pruned.pt...
+[07.22.24 14:13:40] Pruned channels to checkpoints/pruned/epoch_8/pruned_channels.txt...
+[07.22.24 14:13:40] Re-Built model using checkpoints/pruned/epoch_8/pruned_channels.txt...
+[07.22.24 14:13:40] Re-Loaded checkpoint from checkpoints/pruned/epoch_8/pruned.pt...
+[07.22.24 14:13:41] FLOPs after pruning: 
+[2764800, 18432000, 5990400, 8985600, 2880000, 4262400, 936000, 1569600, 356400, 388800, 2836800, 1080000, 7718400, 2304000, 23040000, 4838400, 56217600, 17510400]
+[07.22.24 14:13:44] Finished finetuning
+[07.22.24 14:13:44] Finetuned loss: 0.784676345911893
+[07.22.24 14:13:44] Saving finetuned to checkpoints/pruned/epoch_8/finetuned.pt...
+[07.22.24 14:14:10] Validation Dice Coeff: 0.3709166257260969
+device:  cuda
+Processing epoch 9
+[07.22.24 14:14:13] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_9.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:14:13] Built model...
+[07.22.24 14:14:13] Loading checkpoint from checkpoints/original/epoch_9.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:14:13] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:14:15] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:14:15] Completed Pruning of 2944 channels
+[07.22.24 14:14:15] Saving pruned to checkpoints/pruned/epoch_9/pruned.pt...
+[07.22.24 14:14:15] Pruned channels to checkpoints/pruned/epoch_9/pruned_channels.txt...
+[07.22.24 14:14:15] Re-Built model using checkpoints/pruned/epoch_9/pruned_channels.txt...
+[07.22.24 14:14:15] Re-Loaded checkpoint from checkpoints/pruned/epoch_9/pruned.pt...
+[07.22.24 14:14:15] FLOPs after pruning: 
+[2764800, 11980800, 4608000, 8985600, 2995200, 4492800, 864000, 1440000, 417600, 410400, 3729600, 676800, 7200000, 1555200, 23040000, 2534400, 39628800, 18432000]
+[07.22.24 14:14:18] Finished finetuning
+[07.22.24 14:14:18] Finetuned loss: 1.098155758597634
+[07.22.24 14:14:18] Saving finetuned to checkpoints/pruned/epoch_9/finetuned.pt...
+[07.22.24 14:14:43] Validation Dice Coeff: 0.5164170332512794
+device:  cuda
+Processing epoch 10
+[07.22.24 14:14:45] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_10.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:14:45] Built model...
+[07.22.24 14:14:46] Loading checkpoint from checkpoints/original/epoch_10.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:14:46] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:14:47] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:14:48] Completed Pruning of 2944 channels
+[07.22.24 14:14:48] Saving pruned to checkpoints/pruned/epoch_10/pruned.pt...
+[07.22.24 14:14:48] Pruned channels to checkpoints/pruned/epoch_10/pruned_channels.txt...
+[07.22.24 14:14:48] Re-Built model using checkpoints/pruned/epoch_10/pruned_channels.txt...
+[07.22.24 14:14:48] Re-Loaded checkpoint from checkpoints/pruned/epoch_10/pruned.pt...
+[07.22.24 14:14:48] FLOPs after pruning: 
+[2764800, 22118400, 5529600, 11059200, 2764800, 4435200, 1497600, 1598400, 302400, 345600, 2779200, 979200, 10713600, 2304000, 19123200, 3686400, 42393600, 11059200]
+[07.22.24 14:14:51] Finished finetuning
+[07.22.24 14:14:51] Finetuned loss: 0.6619831106879495
+[07.22.24 14:14:51] Saving finetuned to checkpoints/pruned/epoch_10/finetuned.pt...
+[07.22.24 14:15:12] Validation Dice Coeff: 0.236000523875452
+device:  cuda
+Processing epoch 11
+[07.22.24 14:15:15] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_11.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:15:15] Built model...
+[07.22.24 14:15:15] Loading checkpoint from checkpoints/original/epoch_11.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:15:15] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:15:17] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:15:17] Completed Pruning of 2944 channels
+[07.22.24 14:15:17] Saving pruned to checkpoints/pruned/epoch_11/pruned.pt...
+[07.22.24 14:15:17] Pruned channels to checkpoints/pruned/epoch_11/pruned_channels.txt...
+[07.22.24 14:15:17] Re-Built model using checkpoints/pruned/epoch_11/pruned_channels.txt...
+[07.22.24 14:15:17] Re-Loaded checkpoint from checkpoints/pruned/epoch_11/pruned.pt...
+[07.22.24 14:15:18] FLOPs after pruning: 
+[2764800, 35020800, 5299200, 9907200, 3168000, 3398400, 1252800, 1238400, 450000, 345600, 3182400, 403200, 9619200, 3571200, 23040000, 5990400, 49766400, 10137600]
+[07.22.24 14:15:21] Finished finetuning
+[07.22.24 14:15:21] Finetuned loss: 0.588914846832102
+[07.22.24 14:15:21] Saving finetuned to checkpoints/pruned/epoch_11/finetuned.pt...
+[07.22.24 14:15:48] Validation Dice Coeff: 0.5756932736621472
+device:  cuda
+Processing epoch 12
+[07.22.24 14:15:51] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_12.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:15:51] Built model...
+[07.22.24 14:15:51] Loading checkpoint from checkpoints/original/epoch_12.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:15:51] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:15:53] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:15:53] Completed Pruning of 2944 channels
+[07.22.24 14:15:53] Saving pruned to checkpoints/pruned/epoch_12/pruned.pt...
+[07.22.24 14:15:53] Pruned channels to checkpoints/pruned/epoch_12/pruned_channels.txt...
+[07.22.24 14:15:53] Re-Built model using checkpoints/pruned/epoch_12/pruned_channels.txt...
+[07.22.24 14:15:53] Re-Loaded checkpoint from checkpoints/pruned/epoch_12/pruned.pt...
+[07.22.24 14:15:53] FLOPs after pruning: 
+[2764800, 30412800, 5990400, 10368000, 3225600, 4550400, 1353600, 1094400, 356400, 284400, 2894400, 763200, 9964800, 2649600, 22348800, 8064000, 52531200, 23040000]
+[07.22.24 14:15:58] Finished finetuning
+[07.22.24 14:15:58] Finetuned loss: 0.6757158257744529
+[07.22.24 14:15:58] Saving finetuned to checkpoints/pruned/epoch_12/finetuned.pt...
+[07.22.24 14:16:31] Validation Dice Coeff: 0.5337990386216473
+device:  cuda
+Processing epoch 13
+[07.22.24 14:16:34] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_13.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:16:34] Built model...
+[07.22.24 14:16:34] Loading checkpoint from checkpoints/original/epoch_13.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:16:34] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:16:36] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:16:36] Completed Pruning of 2944 channels
+[07.22.24 14:16:36] Saving pruned to checkpoints/pruned/epoch_13/pruned.pt...
+[07.22.24 14:16:36] Pruned channels to checkpoints/pruned/epoch_13/pruned_channels.txt...
+[07.22.24 14:16:36] Re-Built model using checkpoints/pruned/epoch_13/pruned_channels.txt...
+[07.22.24 14:16:36] Re-Loaded checkpoint from checkpoints/pruned/epoch_13/pruned.pt...
+[07.22.24 14:16:36] FLOPs after pruning: 
+[2764800, 28569600, 5990400, 6681600, 3110400, 3974400, 1526400, 1296000, 450000, 356400, 3686400, 720000, 11001600, 2016000, 19123200, 3686400, 43315200, 11980800]
+[07.22.24 14:16:39] Finished finetuning
+[07.22.24 14:16:39] Finetuned loss: 0.693923765962774
+[07.22.24 14:16:39] Saving finetuned to checkpoints/pruned/epoch_13/finetuned.pt...
+[07.22.24 14:17:02] Validation Dice Coeff: 0.22950288069600705
+device:  cuda
+Processing epoch 14
+[07.22.24 14:17:05] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_14.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:17:05] Built model...
+[07.22.24 14:17:05] Loading checkpoint from checkpoints/original/epoch_14.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:17:05] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:17:06] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:17:07] Completed Pruning of 2944 channels
+[07.22.24 14:17:07] Saving pruned to checkpoints/pruned/epoch_14/pruned.pt...
+[07.22.24 14:17:07] Pruned channels to checkpoints/pruned/epoch_14/pruned_channels.txt...
+[07.22.24 14:17:07] Re-Built model using checkpoints/pruned/epoch_14/pruned_channels.txt...
+[07.22.24 14:17:07] Re-Loaded checkpoint from checkpoints/pruned/epoch_14/pruned.pt...
+[07.22.24 14:17:07] FLOPs after pruning: 
+[2764800, 26726400, 4838400, 10828800, 3456000, 4320000, 1396800, 1540800, 234000, 280800, 2620800, 1368000, 9849600, 2476800, 22348800, 3686400, 36864000, 11980800]
+[07.22.24 14:17:10] Finished finetuning
+[07.22.24 14:17:10] Finetuned loss: 0.8103506944396279
+[07.22.24 14:17:10] Saving finetuned to checkpoints/pruned/epoch_14/finetuned.pt...
+[07.22.24 14:17:33] Validation Dice Coeff: 0.4221364449097779
+device:  cuda
+Processing epoch 15
+[07.22.24 14:17:35] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_15.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:17:35] Built model...
+[07.22.24 14:17:35] Loading checkpoint from checkpoints/original/epoch_15.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:17:35] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:17:37] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:17:37] Completed Pruning of 2944 channels
+[07.22.24 14:17:37] Saving pruned to checkpoints/pruned/epoch_15/pruned.pt...
+[07.22.24 14:17:37] Pruned channels to checkpoints/pruned/epoch_15/pruned_channels.txt...
+[07.22.24 14:17:37] Re-Built model using checkpoints/pruned/epoch_15/pruned_channels.txt...
+[07.22.24 14:17:37] Re-Loaded checkpoint from checkpoints/pruned/epoch_15/pruned.pt...
+[07.22.24 14:17:38] FLOPs after pruning: 
+[2764800, 29491200, 3456000, 11059200, 3628800, 4262400, 1425600, 1425600, 471600, 198000, 3139200, 604800, 11232000, 2707200, 24652800, 4608000, 37785600, 14745600]
+[07.22.24 14:17:41] Finished finetuning
+[07.22.24 14:17:41] Finetuned loss: 0.6447097144343636
+[07.22.24 14:17:41] Saving finetuned to checkpoints/pruned/epoch_15/finetuned.pt...
+[07.22.24 14:18:04] Validation Dice Coeff: 0.20891253412361444
+device:  cuda
+Processing epoch 16
+[07.22.24 14:18:07] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_16.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:18:07] Built model...
+[07.22.24 14:18:07] Loading checkpoint from checkpoints/original/epoch_16.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:18:07] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:18:09] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:18:09] Completed Pruning of 2944 channels
+[07.22.24 14:18:09] Saving pruned to checkpoints/pruned/epoch_16/pruned.pt...
+[07.22.24 14:18:09] Pruned channels to checkpoints/pruned/epoch_16/pruned_channels.txt...
+[07.22.24 14:18:09] Re-Built model using checkpoints/pruned/epoch_16/pruned_channels.txt...
+[07.22.24 14:18:09] Re-Loaded checkpoint from checkpoints/pruned/epoch_16/pruned.pt...
+[07.22.24 14:18:10] FLOPs after pruning: 
+[2764800, 28569600, 5068800, 11980800, 3801600, 4320000, 1152000, 892800, 313200, 201600, 3052800, 864000, 9734400, 2246400, 26035200, 7833600, 52531200, 23040000]
+[07.22.24 14:18:13] Finished finetuning
+[07.22.24 14:18:13] Finetuned loss: 0.7703027427196503
+[07.22.24 14:18:13] Saving finetuned to checkpoints/pruned/epoch_16/finetuned.pt...
+[07.22.24 14:18:48] Validation Dice Coeff: 0.4855417842687203
+device:  cuda
+Processing epoch 17
+[07.22.24 14:18:51] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_17.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:18:51] Built model...
+[07.22.24 14:18:51] Loading checkpoint from checkpoints/original/epoch_17.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:18:51] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:18:53] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:18:53] Completed Pruning of 2944 channels
+[07.22.24 14:18:53] Saving pruned to checkpoints/pruned/epoch_17/pruned.pt...
+[07.22.24 14:18:53] Pruned channels to checkpoints/pruned/epoch_17/pruned_channels.txt...
+[07.22.24 14:18:53] Re-Built model using checkpoints/pruned/epoch_17/pruned_channels.txt...
+[07.22.24 14:18:53] Re-Loaded checkpoint from checkpoints/pruned/epoch_17/pruned.pt...
+[07.22.24 14:18:54] FLOPs after pruning: 
+[2764800, 33177600, 5990400, 14054400, 2937600, 4204800, 1267200, 1238400, 244800, 284400, 2793600, 936000, 8870400, 2649600, 20044800, 5068800, 48844800, 18432000]
+[07.22.24 14:18:57] Finished finetuning
+[07.22.24 14:18:57] Finetuned loss: 0.7458134239370172
+[07.22.24 14:18:57] Saving finetuned to checkpoints/pruned/epoch_17/finetuned.pt...
+[07.22.24 14:19:29] Validation Dice Coeff: 0.5236785704153528
+device:  cuda
+Processing epoch 18
+[07.22.24 14:19:31] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_18.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:19:31] Built model...
+[07.22.24 14:19:32] Loading checkpoint from checkpoints/original/epoch_18.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:19:32] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:19:33] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:19:33] Completed Pruning of 2944 channels
+[07.22.24 14:19:33] Saving pruned to checkpoints/pruned/epoch_18/pruned.pt...
+[07.22.24 14:19:33] Pruned channels to checkpoints/pruned/epoch_18/pruned_channels.txt...
+[07.22.24 14:19:33] Re-Built model using checkpoints/pruned/epoch_18/pruned_channels.txt...
+[07.22.24 14:19:33] Re-Loaded checkpoint from checkpoints/pruned/epoch_18/pruned.pt...
+[07.22.24 14:19:34] FLOPs after pruning: 
+[2764800, 25804800, 4147200, 8064000, 2995200, 3744000, 1036800, 1123200, 295200, 255600, 2664000, 1296000, 10425600, 2822400, 23270400, 8294400, 45158400, 20275200]
+[07.22.24 14:19:38] Finished finetuning
+[07.22.24 14:19:38] Finetuned loss: 0.7852081656455994
+[07.22.24 14:19:38] Saving finetuned to checkpoints/pruned/epoch_18/finetuned.pt...
+[07.22.24 14:20:08] Validation Dice Coeff: 0.5190058503688807
+device:  cuda
+Processing epoch 19
+[07.22.24 14:20:11] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_19.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:20:11] Built model...
+[07.22.24 14:20:11] Loading checkpoint from checkpoints/original/epoch_19.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:20:11] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:20:13] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:20:13] Completed Pruning of 2944 channels
+[07.22.24 14:20:13] Saving pruned to checkpoints/pruned/epoch_19/pruned.pt...
+[07.22.24 14:20:13] Pruned channels to checkpoints/pruned/epoch_19/pruned_channels.txt...
+[07.22.24 14:20:13] Re-Built model using checkpoints/pruned/epoch_19/pruned_channels.txt...
+[07.22.24 14:20:13] Re-Loaded checkpoint from checkpoints/pruned/epoch_19/pruned.pt...
+[07.22.24 14:20:13] FLOPs after pruning: 
+[2764800, 35020800, 3686400, 11980800, 3398400, 4953600, 1411200, 648000, 338400, 262800, 2462400, 1008000, 9273600, 3456000, 29030400, 7603200, 52531200, 20275200]
+[07.22.24 14:20:17] Finished finetuning
+[07.22.24 14:20:17] Finetuned loss: 0.5851407023993406
+[07.22.24 14:20:17] Saving finetuned to checkpoints/pruned/epoch_19/finetuned.pt...
+[07.22.24 14:20:47] Validation Dice Coeff: 0.6006606656233499
+device:  cuda
+Processing epoch 20
+[07.22.24 14:20:50] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_20.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:20:50] Built model...
+[07.22.24 14:20:50] Loading checkpoint from checkpoints/original/epoch_20.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:20:50] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:20:52] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:20:52] Completed Pruning of 2944 channels
+[07.22.24 14:20:52] Saving pruned to checkpoints/pruned/epoch_20/pruned.pt...
+[07.22.24 14:20:52] Pruned channels to checkpoints/pruned/epoch_20/pruned_channels.txt...
+[07.22.24 14:20:52] Re-Built model using checkpoints/pruned/epoch_20/pruned_channels.txt...
+[07.22.24 14:20:52] Re-Loaded checkpoint from checkpoints/pruned/epoch_20/pruned.pt...
+[07.22.24 14:20:52] FLOPs after pruning: 
+[2764800, 31334400, 4838400, 11059200, 2995200, 3456000, 1569600, 1051200, 370800, 403200, 2217600, 1123200, 11865600, 2476800, 22579200, 3916800, 44236800, 15667200]
+[07.22.24 14:20:56] Finished finetuning
+[07.22.24 14:20:56] Finetuned loss: 0.9159297401254828
+[07.22.24 14:20:56] Saving finetuned to checkpoints/pruned/epoch_20/finetuned.pt...
+[07.22.24 14:21:24] Validation Dice Coeff: 0.3876235438486714
+device:  cuda
+Processing epoch 21
+[07.22.24 14:21:26] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_21.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:21:26] Built model...
+[07.22.24 14:21:26] Loading checkpoint from checkpoints/original/epoch_21.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:21:26] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:21:28] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:21:28] Completed Pruning of 2944 channels
+[07.22.24 14:21:28] Saving pruned to checkpoints/pruned/epoch_21/pruned.pt...
+[07.22.24 14:21:28] Pruned channels to checkpoints/pruned/epoch_21/pruned_channels.txt...
+[07.22.24 14:21:28] Re-Built model using checkpoints/pruned/epoch_21/pruned_channels.txt...
+[07.22.24 14:21:28] Re-Loaded checkpoint from checkpoints/pruned/epoch_21/pruned.pt...
+[07.22.24 14:21:29] FLOPs after pruning: 
+[2764800, 23040000, 5760000, 12672000, 3340800, 3859200, 1483200, 1526400, 338400, 237600, 2016000, 561600, 13075200, 2476800, 25804800, 8064000, 48844800, 24883200]
+[07.22.24 14:21:33] Finished finetuning
+[07.22.24 14:21:33] Finetuned loss: 0.646451012654738
+[07.22.24 14:21:33] Saving finetuned to checkpoints/pruned/epoch_21/finetuned.pt...
+[07.22.24 14:22:05] Validation Dice Coeff: 0.6066866791165475
+device:  cuda
+Processing epoch 22
+[07.22.24 14:22:08] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_22.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:22:08] Built model...
+[07.22.24 14:22:08] Loading checkpoint from checkpoints/original/epoch_22.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:22:08] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:22:09] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:22:09] Completed Pruning of 2944 channels
+[07.22.24 14:22:09] Saving pruned to checkpoints/pruned/epoch_22/pruned.pt...
+[07.22.24 14:22:09] Pruned channels to checkpoints/pruned/epoch_22/pruned_channels.txt...
+[07.22.24 14:22:09] Re-Built model using checkpoints/pruned/epoch_22/pruned_channels.txt...
+[07.22.24 14:22:09] Re-Loaded checkpoint from checkpoints/pruned/epoch_22/pruned.pt...
+[07.22.24 14:22:10] FLOPs after pruning: 
+[2764800, 27648000, 5068800, 14515200, 4032000, 3456000, 1137600, 561600, 370800, 291600, 2476800, 1051200, 9734400, 3225600, 29030400, 5990400, 47923200, 29491200]
+[07.22.24 14:22:14] Finished finetuning
+[07.22.24 14:22:14] Finetuned loss: 1.3820174797014757
+[07.22.24 14:22:14] Saving finetuned to checkpoints/pruned/epoch_22/finetuned.pt...
+[07.22.24 14:22:47] Validation Dice Coeff: 0.3209851625428345
+device:  cuda
+Processing epoch 23
+[07.22.24 14:22:50] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_23.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:22:50] Built model...
+[07.22.24 14:22:50] Loading checkpoint from checkpoints/original/epoch_23.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:22:50] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:22:52] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:22:52] Completed Pruning of 2944 channels
+[07.22.24 14:22:52] Saving pruned to checkpoints/pruned/epoch_23/pruned.pt...
+[07.22.24 14:22:52] Pruned channels to checkpoints/pruned/epoch_23/pruned_channels.txt...
+[07.22.24 14:22:52] Re-Built model using checkpoints/pruned/epoch_23/pruned_channels.txt...
+[07.22.24 14:22:52] Re-Loaded checkpoint from checkpoints/pruned/epoch_23/pruned.pt...
+[07.22.24 14:22:52] FLOPs after pruning: 
+[2764800, 21196800, 3456000, 10137600, 2476800, 4550400, 1310400, 1843200, 288000, 547200, 1929600, 1051200, 9849600, 1324800, 17740800, 4147200, 44236800, 18432000]
+[07.22.24 14:22:55] Finished finetuning
+[07.22.24 14:22:55] Finetuned loss: 0.9198394228111614
+[07.22.24 14:22:55] Saving finetuned to checkpoints/pruned/epoch_23/finetuned.pt...
+[07.22.24 14:23:19] Validation Dice Coeff: 0.1750871398251564
+device:  cuda
+Processing epoch 24
+[07.22.24 14:23:22] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_24.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:23:22] Built model...
+[07.22.24 14:23:22] Loading checkpoint from checkpoints/original/epoch_24.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:23:22] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:23:24] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:23:24] Completed Pruning of 2944 channels
+[07.22.24 14:23:24] Saving pruned to checkpoints/pruned/epoch_24/pruned.pt...
+[07.22.24 14:23:24] Pruned channels to checkpoints/pruned/epoch_24/pruned_channels.txt...
+[07.22.24 14:23:24] Re-Built model using checkpoints/pruned/epoch_24/pruned_channels.txt...
+[07.22.24 14:23:24] Re-Loaded checkpoint from checkpoints/pruned/epoch_24/pruned.pt...
+[07.22.24 14:23:25] FLOPs after pruning: 
+[2764800, 22118400, 5529600, 12441600, 3801600, 4204800, 1324800, 936000, 302400, 252000, 2102400, 806400, 11635200, 3052800, 31564800, 7833600, 47001600, 32256000]
+[07.22.24 14:23:29] Finished finetuning
+[07.22.24 14:23:29] Finetuned loss: 0.6829511604525826
+[07.22.24 14:23:29] Saving finetuned to checkpoints/pruned/epoch_24/finetuned.pt...
+[07.22.24 14:24:04] Validation Dice Coeff: 0.6037246547242279
+device:  cuda
+Processing epoch 25
+[07.22.24 14:24:07] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_25.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:24:07] Built model...
+[07.22.24 14:24:07] Loading checkpoint from checkpoints/original/epoch_25.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:24:07] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:24:09] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:24:09] Completed Pruning of 2944 channels
+[07.22.24 14:24:09] Saving pruned to checkpoints/pruned/epoch_25/pruned.pt...
+[07.22.24 14:24:09] Pruned channels to checkpoints/pruned/epoch_25/pruned_channels.txt...
+[07.22.24 14:24:09] Re-Built model using checkpoints/pruned/epoch_25/pruned_channels.txt...
+[07.22.24 14:24:09] Re-Loaded checkpoint from checkpoints/pruned/epoch_25/pruned.pt...
+[07.22.24 14:24:09] FLOPs after pruning: 
+[2764800, 31334400, 5760000, 12902400, 3283200, 3110400, 777600, 648000, 298800, 180000, 3873600, 777600, 8812800, 2246400, 24422400, 8985600, 56217600, 30412800]
+[07.22.24 14:24:13] Finished finetuning
+[07.22.24 14:24:13] Finetuned loss: 0.7603043426166881
+[07.22.24 14:24:13] Saving finetuned to checkpoints/pruned/epoch_25/finetuned.pt...
+[07.22.24 14:24:49] Validation Dice Coeff: 0.5466650492864548
+device:  cuda
+Processing epoch 26
+[07.22.24 14:24:52] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_26.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:24:52] Built model...
+[07.22.24 14:24:52] Loading checkpoint from checkpoints/original/epoch_26.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:24:52] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:24:54] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:24:54] Completed Pruning of 2944 channels
+[07.22.24 14:24:54] Saving pruned to checkpoints/pruned/epoch_26/pruned.pt...
+[07.22.24 14:24:54] Pruned channels to checkpoints/pruned/epoch_26/pruned_channels.txt...
+[07.22.24 14:24:54] Re-Built model using checkpoints/pruned/epoch_26/pruned_channels.txt...
+[07.22.24 14:24:54] Re-Loaded checkpoint from checkpoints/pruned/epoch_26/pruned.pt...
+[07.22.24 14:24:55] FLOPs after pruning: 
+[2764800, 23040000, 3916800, 8985600, 3398400, 3859200, 1598400, 1771200, 298800, 273600, 2577600, 648000, 12384000, 2937600, 24422400, 5068800, 44236800, 11980800]
+[07.22.24 14:24:57] Finished finetuning
+[07.22.24 14:24:57] Finetuned loss: 0.6012017537247051
+[07.22.24 14:24:57] Saving finetuned to checkpoints/pruned/epoch_26/finetuned.pt...
+[07.22.24 14:25:21] Validation Dice Coeff: 0.5474395001613702
+device:  cuda
+Processing epoch 27
+[07.22.24 14:25:24] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_27.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:25:24] Built model...
+[07.22.24 14:25:24] Loading checkpoint from checkpoints/original/epoch_27.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:25:24] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:25:26] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:25:26] Completed Pruning of 2944 channels
+[07.22.24 14:25:26] Saving pruned to checkpoints/pruned/epoch_27/pruned.pt...
+[07.22.24 14:25:26] Pruned channels to checkpoints/pruned/epoch_27/pruned_channels.txt...
+[07.22.24 14:25:26] Re-Built model using checkpoints/pruned/epoch_27/pruned_channels.txt...
+[07.22.24 14:25:26] Re-Loaded checkpoint from checkpoints/pruned/epoch_27/pruned.pt...
+[07.22.24 14:25:27] FLOPs after pruning: 
+[2764800, 24883200, 4608000, 10828800, 3398400, 4262400, 1339200, 1008000, 298800, 226800, 3067200, 849600, 10713600, 2246400, 21888000, 6912000, 49766400, 26726400]
+[07.22.24 14:25:30] Finished finetuning
+[07.22.24 14:25:30] Finetuned loss: 0.8896204368634657
+[07.22.24 14:25:30] Saving finetuned to checkpoints/pruned/epoch_27/finetuned.pt...
+[07.22.24 14:26:01] Validation Dice Coeff: 0.5176910015154481
+device:  cuda
+Processing epoch 28
+[07.22.24 14:26:04] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_28.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:26:04] Built model...
+[07.22.24 14:26:04] Loading checkpoint from checkpoints/original/epoch_28.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:26:04] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:26:06] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:26:06] Completed Pruning of 2944 channels
+[07.22.24 14:26:06] Saving pruned to checkpoints/pruned/epoch_28/pruned.pt...
+[07.22.24 14:26:06] Pruned channels to checkpoints/pruned/epoch_28/pruned_channels.txt...
+[07.22.24 14:26:06] Re-Built model using checkpoints/pruned/epoch_28/pruned_channels.txt...
+[07.22.24 14:26:06] Re-Loaded checkpoint from checkpoints/pruned/epoch_28/pruned.pt...
+[07.22.24 14:26:07] FLOPs after pruning: 
+[2764800, 35020800, 4147200, 9907200, 3456000, 4665600, 1425600, 1267200, 284400, 277200, 2880000, 460800, 11923200, 2592000, 25344000, 4838400, 44236800, 13824000]
+[07.22.24 14:26:10] Finished finetuning
+[07.22.24 14:26:10] Finetuned loss: 0.7952218380841342
+[07.22.24 14:26:10] Saving finetuned to checkpoints/pruned/epoch_28/finetuned.pt...
+[07.22.24 14:26:36] Validation Dice Coeff: 0.5545936049996999
+device:  cuda
+Processing epoch 29
+[07.22.24 14:26:39] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_29.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:26:39] Built model...
+[07.22.24 14:26:39] Loading checkpoint from checkpoints/original/epoch_29.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:26:39] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:26:41] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:26:41] Completed Pruning of 2944 channels
+[07.22.24 14:26:41] Saving pruned to checkpoints/pruned/epoch_29/pruned.pt...
+[07.22.24 14:26:41] Pruned channels to checkpoints/pruned/epoch_29/pruned_channels.txt...
+[07.22.24 14:26:41] Re-Built model using checkpoints/pruned/epoch_29/pruned_channels.txt...
+[07.22.24 14:26:41] Re-Loaded checkpoint from checkpoints/pruned/epoch_29/pruned.pt...
+[07.22.24 14:26:42] FLOPs after pruning: 
+[2764800, 35020800, 3456000, 13824000, 3744000, 3974400, 1324800, 1324800, 262800, 266400, 2174400, 432000, 11116800, 2534400, 32947200, 7372800, 48844800, 20275200]
+[07.22.24 14:26:46] Finished finetuning
+[07.22.24 14:26:46] Finetuned loss: 0.8767457983710549
+[07.22.24 14:26:46] Saving finetuned to checkpoints/pruned/epoch_29/finetuned.pt...
+[07.22.24 14:27:15] Validation Dice Coeff: 0.5339304044825262
+device:  cuda
+Processing epoch 30
+[07.22.24 14:27:18] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_30.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:27:18] Built model...
+[07.22.24 14:27:18] Loading checkpoint from checkpoints/original/epoch_30.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:27:18] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:27:20] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:27:20] Completed Pruning of 2944 channels
+[07.22.24 14:27:20] Saving pruned to checkpoints/pruned/epoch_30/pruned.pt...
+[07.22.24 14:27:20] Pruned channels to checkpoints/pruned/epoch_30/pruned_channels.txt...
+[07.22.24 14:27:20] Re-Built model using checkpoints/pruned/epoch_30/pruned_channels.txt...
+[07.22.24 14:27:20] Re-Loaded checkpoint from checkpoints/pruned/epoch_30/pruned.pt...
+[07.22.24 14:27:21] FLOPs after pruning: 
+[2764800, 32256000, 6912000, 15436800, 2592000, 4723200, 1080000, 1584000, 172800, 205200, 2736000, 648000, 10310400, 1785600, 20966400, 5068800, 51609600, 19353600]
+[07.22.24 14:27:24] Finished finetuning
+[07.22.24 14:27:24] Finetuned loss: 0.7200616543943231
+[07.22.24 14:27:24] Saving finetuned to checkpoints/pruned/epoch_30/finetuned.pt...
+[07.22.24 14:27:56] Validation Dice Coeff: 0.5455071328347894
+device:  cuda
+Processing epoch 31
+[07.22.24 14:27:58] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_31.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:27:58] Built model...
+[07.22.24 14:27:59] Loading checkpoint from checkpoints/original/epoch_31.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:27:59] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:28:00] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:28:00] Completed Pruning of 2944 channels
+[07.22.24 14:28:00] Saving pruned to checkpoints/pruned/epoch_31/pruned.pt...
+[07.22.24 14:28:00] Pruned channels to checkpoints/pruned/epoch_31/pruned_channels.txt...
+[07.22.24 14:28:00] Re-Built model using checkpoints/pruned/epoch_31/pruned_channels.txt...
+[07.22.24 14:28:00] Re-Loaded checkpoint from checkpoints/pruned/epoch_31/pruned.pt...
+[07.22.24 14:28:01] FLOPs after pruning: 
+[2764800, 23961600, 6451200, 11520000, 3513600, 4435200, 1180800, 532800, 298800, 176400, 3657600, 864000, 10252800, 2246400, 23731200, 5760000, 53452800, 27648000]
+[07.22.24 14:28:05] Finished finetuning
+[07.22.24 14:28:05] Finetuned loss: 0.8567971370436929
+[07.22.24 14:28:05] Saving finetuned to checkpoints/pruned/epoch_31/finetuned.pt...
+[07.22.24 14:28:39] Validation Dice Coeff: 0.3435264167966917
+device:  cuda
+Processing epoch 32
+[07.22.24 14:28:42] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_32.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:28:42] Built model...
+[07.22.24 14:28:42] Loading checkpoint from checkpoints/original/epoch_32.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:28:42] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:28:44] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:28:44] Completed Pruning of 2944 channels
+[07.22.24 14:28:44] Saving pruned to checkpoints/pruned/epoch_32/pruned.pt...
+[07.22.24 14:28:44] Pruned channels to checkpoints/pruned/epoch_32/pruned_channels.txt...
+[07.22.24 14:28:44] Re-Built model using checkpoints/pruned/epoch_32/pruned_channels.txt...
+[07.22.24 14:28:44] Re-Loaded checkpoint from checkpoints/pruned/epoch_32/pruned.pt...
+[07.22.24 14:28:44] FLOPs after pruning: 
+[2764800, 36864000, 6220800, 10137600, 3398400, 3974400, 1238400, 619200, 345600, 208800, 2894400, 950400, 12096000, 2073600, 28339200, 5529600, 54374400, 19353600]
+[07.22.24 14:28:48] Finished finetuning
+[07.22.24 14:28:48] Finetuned loss: 0.8684821860356764
+[07.22.24 14:28:48] Saving finetuned to checkpoints/pruned/epoch_32/finetuned.pt...
+[07.22.24 14:29:19] Validation Dice Coeff: 0.4267594782251517
+device:  cuda
+Processing epoch 33
+[07.22.24 14:29:21] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_33.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:29:21] Built model...
+[07.22.24 14:29:22] Loading checkpoint from checkpoints/original/epoch_33.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:29:22] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:29:23] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:29:23] Completed Pruning of 2944 channels
+[07.22.24 14:29:23] Saving pruned to checkpoints/pruned/epoch_33/pruned.pt...
+[07.22.24 14:29:23] Pruned channels to checkpoints/pruned/epoch_33/pruned_channels.txt...
+[07.22.24 14:29:23] Re-Built model using checkpoints/pruned/epoch_33/pruned_channels.txt...
+[07.22.24 14:29:23] Re-Loaded checkpoint from checkpoints/pruned/epoch_33/pruned.pt...
+[07.22.24 14:29:24] FLOPs after pruning: 
+[2764800, 36864000, 6220800, 11520000, 3456000, 4608000, 1252800, 619200, 288000, 230400, 3672000, 388800, 10944000, 2361600, 24652800, 5990400, 55296000, 20275200]
+[07.22.24 14:29:28] Finished finetuning
+[07.22.24 14:29:28] Finetuned loss: 0.8038722601803866
+[07.22.24 14:29:28] Saving finetuned to checkpoints/pruned/epoch_33/finetuned.pt...
+[07.22.24 14:29:58] Validation Dice Coeff: 0.15955778061742346
+device:  cuda
+Processing epoch 34
+[07.22.24 14:30:00] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_34.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:30:00] Built model...
+[07.22.24 14:30:01] Loading checkpoint from checkpoints/original/epoch_34.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:30:01] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:30:02] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:30:02] Completed Pruning of 2944 channels
+[07.22.24 14:30:02] Saving pruned to checkpoints/pruned/epoch_34/pruned.pt...
+[07.22.24 14:30:02] Pruned channels to checkpoints/pruned/epoch_34/pruned_channels.txt...
+[07.22.24 14:30:02] Re-Built model using checkpoints/pruned/epoch_34/pruned_channels.txt...
+[07.22.24 14:30:02] Re-Loaded checkpoint from checkpoints/pruned/epoch_34/pruned.pt...
+[07.22.24 14:30:03] FLOPs after pruning: 
+[2764800, 23040000, 6451200, 9907200, 3168000, 4377600, 1368000, 1454400, 201600, 244800, 2520000, 835200, 9907200, 2534400, 24883200, 6451200, 51609600, 25804800]
+[07.22.24 14:30:07] Finished finetuning
+[07.22.24 14:30:07] Finetuned loss: 0.7589128559285944
+[07.22.24 14:30:07] Saving finetuned to checkpoints/pruned/epoch_34/finetuned.pt...
+[07.22.24 14:30:41] Validation Dice Coeff: 0.5297330372673822
+device:  cuda
+Processing epoch 35
+[07.22.24 14:30:44] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_35.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:30:44] Built model...
+[07.22.24 14:30:44] Loading checkpoint from checkpoints/original/epoch_35.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:30:44] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:30:46] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:30:46] Completed Pruning of 2944 channels
+[07.22.24 14:30:46] Saving pruned to checkpoints/pruned/epoch_35/pruned.pt...
+[07.22.24 14:30:46] Pruned channels to checkpoints/pruned/epoch_35/pruned_channels.txt...
+[07.22.24 14:30:46] Re-Built model using checkpoints/pruned/epoch_35/pruned_channels.txt...
+[07.22.24 14:30:46] Re-Loaded checkpoint from checkpoints/pruned/epoch_35/pruned.pt...
+[07.22.24 14:30:46] FLOPs after pruning: 
+[2764800, 32256000, 3686400, 10828800, 2476800, 5875200, 1728000, 2073600, 367200, 352800, 1843200, 1051200, 12499200, 1209600, 13593600, 4377600, 30412800, 18432000]
+[07.22.24 14:30:50] Finished finetuning
+[07.22.24 14:30:50] Finetuned loss: 0.8862001381137155
+[07.22.24 14:30:50] Saving finetuned to checkpoints/pruned/epoch_35/finetuned.pt...
+[07.22.24 14:31:13] Validation Dice Coeff: 0.17195651162282363
+device:  cuda
+Processing epoch 36
+[07.22.24 14:31:16] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_36.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:31:16] Built model...
+[07.22.24 14:31:16] Loading checkpoint from checkpoints/original/epoch_36.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:31:16] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:31:18] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:31:18] Completed Pruning of 2944 channels
+[07.22.24 14:31:18] Saving pruned to checkpoints/pruned/epoch_36/pruned.pt...
+[07.22.24 14:31:18] Pruned channels to checkpoints/pruned/epoch_36/pruned_channels.txt...
+[07.22.24 14:31:18] Re-Built model using checkpoints/pruned/epoch_36/pruned_channels.txt...
+[07.22.24 14:31:18] Re-Loaded checkpoint from checkpoints/pruned/epoch_36/pruned.pt...
+[07.22.24 14:31:18] FLOPs after pruning: 
+[2764800, 19353600, 6451200, 5760000, 1900800, 3801600, 1080000, 1728000, 327600, 381600, 3211200, 792000, 9792000, 2937600, 16819200, 5068800, 44236800, 16588800]
+[07.22.24 14:31:21] Finished finetuning
+[07.22.24 14:31:21] Finetuned loss: 0.7364318804307417
+[07.22.24 14:31:21] Saving finetuned to checkpoints/pruned/epoch_36/finetuned.pt...
+[07.22.24 14:31:46] Validation Dice Coeff: 0.5337520598399524
+device:  cuda
+Processing epoch 37
+[07.22.24 14:31:49] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_37.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:31:49] Built model...
+[07.22.24 14:31:49] Loading checkpoint from checkpoints/original/epoch_37.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:31:49] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:31:51] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:31:51] Completed Pruning of 2944 channels
+[07.22.24 14:31:51] Saving pruned to checkpoints/pruned/epoch_37/pruned.pt...
+[07.22.24 14:31:51] Pruned channels to checkpoints/pruned/epoch_37/pruned_channels.txt...
+[07.22.24 14:31:51] Re-Built model using checkpoints/pruned/epoch_37/pruned_channels.txt...
+[07.22.24 14:31:51] Re-Loaded checkpoint from checkpoints/pruned/epoch_37/pruned.pt...
+[07.22.24 14:31:51] FLOPs after pruning: 
+[2764800, 27648000, 5760000, 11059200, 3110400, 4723200, 1684800, 1022400, 352800, 259200, 3024000, 676800, 12902400, 2131200, 22579200, 5760000, 46080000, 12902400]
+[07.22.24 14:31:55] Finished finetuning
+[07.22.24 14:31:55] Finetuned loss: 0.7515118338844993
+[07.22.24 14:31:55] Saving finetuned to checkpoints/pruned/epoch_37/finetuned.pt...
+[07.22.24 14:32:20] Validation Dice Coeff: 0.2666322885900265
+device:  cuda
+Processing epoch 38
+[07.22.24 14:32:23] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_38.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:32:23] Built model...
+[07.22.24 14:32:23] Loading checkpoint from checkpoints/original/epoch_38.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:32:23] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:32:25] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:32:25] Completed Pruning of 2944 channels
+[07.22.24 14:32:25] Saving pruned to checkpoints/pruned/epoch_38/pruned.pt...
+[07.22.24 14:32:25] Pruned channels to checkpoints/pruned/epoch_38/pruned_channels.txt...
+[07.22.24 14:32:25] Re-Built model using checkpoints/pruned/epoch_38/pruned_channels.txt...
+[07.22.24 14:32:25] Re-Loaded checkpoint from checkpoints/pruned/epoch_38/pruned.pt...
+[07.22.24 14:32:25] FLOPs after pruning: 
+[2764800, 24883200, 3456000, 12902400, 2995200, 4089600, 1555200, 2059200, 374400, 342000, 1857600, 1080000, 11635200, 1209600, 20966400, 3916800, 35020800, 20275200]
+[07.22.24 14:32:29] Finished finetuning
+[07.22.24 14:32:29] Finetuned loss: 1.0198374824090437
+[07.22.24 14:32:29] Saving finetuned to checkpoints/pruned/epoch_38/finetuned.pt...
+[07.22.24 14:32:54] Validation Dice Coeff: 0.6029291776807036
+device:  cuda
+Processing epoch 39
+[07.22.24 14:32:56] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_39.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:32:57] Built model...
+[07.22.24 14:32:57] Loading checkpoint from checkpoints/original/epoch_39.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:32:57] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:32:58] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:32:58] Completed Pruning of 2944 channels
+[07.22.24 14:32:58] Saving pruned to checkpoints/pruned/epoch_39/pruned.pt...
+[07.22.24 14:32:58] Pruned channels to checkpoints/pruned/epoch_39/pruned_channels.txt...
+[07.22.24 14:32:58] Re-Built model using checkpoints/pruned/epoch_39/pruned_channels.txt...
+[07.22.24 14:32:58] Re-Loaded checkpoint from checkpoints/pruned/epoch_39/pruned.pt...
+[07.22.24 14:32:59] FLOPs after pruning: 
+[2764800, 34099200, 5068800, 11750400, 2880000, 4204800, 1483200, 1281600, 316800, 165600, 3484800, 648000, 11347200, 2246400, 20966400, 4838400, 48844800, 16588800]
+[07.22.24 14:33:02] Finished finetuning
+[07.22.24 14:33:02] Finetuned loss: 0.8009002100337635
+[07.22.24 14:33:02] Saving finetuned to checkpoints/pruned/epoch_39/finetuned.pt...
+[07.22.24 14:33:29] Validation Dice Coeff: 0.38095238095238093
+device:  cuda
+Processing epoch 40
+[07.22.24 14:33:32] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_40.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:33:32] Built model...
+[07.22.24 14:33:32] Loading checkpoint from checkpoints/original/epoch_40.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:33:32] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:33:34] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:33:34] Completed Pruning of 2944 channels
+[07.22.24 14:33:34] Saving pruned to checkpoints/pruned/epoch_40/pruned.pt...
+[07.22.24 14:33:34] Pruned channels to checkpoints/pruned/epoch_40/pruned_channels.txt...
+[07.22.24 14:33:34] Re-Built model using checkpoints/pruned/epoch_40/pruned_channels.txt...
+[07.22.24 14:33:34] Re-Loaded checkpoint from checkpoints/pruned/epoch_40/pruned.pt...
+[07.22.24 14:33:35] FLOPs after pruning: 
+[2764800, 37785600, 3686400, 13132800, 3456000, 4492800, 1411200, 1209600, 360000, 280800, 2088000, 532800, 10886400, 2707200, 24883200, 6912000, 47923200, 30412800]
+[07.22.24 14:33:39] Finished finetuning
+[07.22.24 14:33:39] Finetuned loss: 0.6764763512394645
+[07.22.24 14:33:39] Saving finetuned to checkpoints/pruned/epoch_40/finetuned.pt...
+[07.22.24 14:34:17] Validation Dice Coeff: 0.5628416795153585
+device:  cuda
+Processing epoch 41
+[07.22.24 14:34:19] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_41.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:34:19] Built model...
+[07.22.24 14:34:20] Loading checkpoint from checkpoints/original/epoch_41.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:34:20] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:34:21] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:34:21] Completed Pruning of 2944 channels
+[07.22.24 14:34:21] Saving pruned to checkpoints/pruned/epoch_41/pruned.pt...
+[07.22.24 14:34:21] Pruned channels to checkpoints/pruned/epoch_41/pruned_channels.txt...
+[07.22.24 14:34:21] Re-Built model using checkpoints/pruned/epoch_41/pruned_channels.txt...
+[07.22.24 14:34:21] Re-Loaded checkpoint from checkpoints/pruned/epoch_41/pruned.pt...
+[07.22.24 14:34:22] FLOPs after pruning: 
+[2764800, 32256000, 8064000, 11059200, 2995200, 4780800, 1526400, 388800, 388800, 288000, 1886400, 864000, 11116800, 3168000, 30182400, 8064000, 70041600, 30412800]
+[07.22.24 14:34:27] Finished finetuning
+[07.22.24 14:34:27] Finetuned loss: 1.2574932480400258
+[07.22.24 14:34:27] Saving finetuned to checkpoints/pruned/epoch_41/finetuned.pt...
+[07.22.24 14:35:05] Validation Dice Coeff: 0.4838572733575721
+device:  cuda
+Processing epoch 42
+[07.22.24 14:35:08] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_42.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:35:08] Built model...
+[07.22.24 14:35:08] Loading checkpoint from checkpoints/original/epoch_42.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:35:08] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:35:09] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:35:10] Completed Pruning of 2944 channels
+[07.22.24 14:35:10] Saving pruned to checkpoints/pruned/epoch_42/pruned.pt...
+[07.22.24 14:35:10] Pruned channels to checkpoints/pruned/epoch_42/pruned_channels.txt...
+[07.22.24 14:35:10] Re-Built model using checkpoints/pruned/epoch_42/pruned_channels.txt...
+[07.22.24 14:35:10] Re-Loaded checkpoint from checkpoints/pruned/epoch_42/pruned.pt...
+[07.22.24 14:35:10] FLOPs after pruning: 
+[2764800, 28569600, 5068800, 12441600, 3916800, 4032000, 1641600, 1872000, 374400, 237600, 1843200, 561600, 12038400, 2304000, 26496000, 5760000, 49766400, 27648000]
+[07.22.24 14:35:14] Finished finetuning
+[07.22.24 14:35:14] Finetuned loss: 0.676104109395634
+[07.22.24 14:35:14] Saving finetuned to checkpoints/pruned/epoch_42/finetuned.pt...
+[07.22.24 14:35:48] Validation Dice Coeff: 0.5321278886150892
+device:  cuda
+Processing epoch 43
+[07.22.24 14:35:51] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_43.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:35:51] Built model...
+[07.22.24 14:35:51] Loading checkpoint from checkpoints/original/epoch_43.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:35:51] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:35:52] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:35:52] Completed Pruning of 2944 channels
+[07.22.24 14:35:52] Saving pruned to checkpoints/pruned/epoch_43/pruned.pt...
+[07.22.24 14:35:52] Pruned channels to checkpoints/pruned/epoch_43/pruned_channels.txt...
+[07.22.24 14:35:52] Re-Built model using checkpoints/pruned/epoch_43/pruned_channels.txt...
+[07.22.24 14:35:52] Re-Loaded checkpoint from checkpoints/pruned/epoch_43/pruned.pt...
+[07.22.24 14:35:53] FLOPs after pruning: 
+[2764800, 31334400, 4838400, 11059200, 3225600, 5644800, 1555200, 1396800, 381600, 244800, 1828800, 1252800, 11462400, 1843200, 26726400, 3916800, 41472000, 16588800]
+[07.22.24 14:35:57] Finished finetuning
+[07.22.24 14:35:57] Finetuned loss: 1.4502684826200658
+[07.22.24 14:35:57] Saving finetuned to checkpoints/pruned/epoch_43/finetuned.pt...
+[07.22.24 14:36:25] Validation Dice Coeff: 0.2431031118798575
+device:  cuda
+Processing epoch 44
+[07.22.24 14:36:28] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_44.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:36:28] Built model...
+[07.22.24 14:36:28] Loading checkpoint from checkpoints/original/epoch_44.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:36:28] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:36:29] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:36:29] Completed Pruning of 2944 channels
+[07.22.24 14:36:29] Saving pruned to checkpoints/pruned/epoch_44/pruned.pt...
+[07.22.24 14:36:29] Pruned channels to checkpoints/pruned/epoch_44/pruned_channels.txt...
+[07.22.24 14:36:29] Re-Built model using checkpoints/pruned/epoch_44/pruned_channels.txt...
+[07.22.24 14:36:29] Re-Loaded checkpoint from checkpoints/pruned/epoch_44/pruned.pt...
+[07.22.24 14:36:30] FLOPs after pruning: 
+[2764800, 26726400, 4377600, 11980800, 3052800, 3340800, 1670400, 648000, 403200, 270000, 3153600, 604800, 12729600, 3456000, 24192000, 3686400, 51609600, 12902400]
+[07.22.24 14:36:33] Finished finetuning
+[07.22.24 14:36:33] Finetuned loss: 0.6733263270421461
+[07.22.24 14:36:33] Saving finetuned to checkpoints/pruned/epoch_44/finetuned.pt...
+[07.22.24 14:36:59] Validation Dice Coeff: 0.5721446051341539
+device:  cuda
+Processing epoch 45
+[07.22.24 14:37:02] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_45.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:37:02] Built model...
+[07.22.24 14:37:02] Loading checkpoint from checkpoints/original/epoch_45.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:37:02] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:37:04] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:37:04] Completed Pruning of 2944 channels
+[07.22.24 14:37:04] Saving pruned to checkpoints/pruned/epoch_45/pruned.pt...
+[07.22.24 14:37:04] Pruned channels to checkpoints/pruned/epoch_45/pruned_channels.txt...
+[07.22.24 14:37:04] Re-Built model using checkpoints/pruned/epoch_45/pruned_channels.txt...
+[07.22.24 14:37:04] Re-Loaded checkpoint from checkpoints/pruned/epoch_45/pruned.pt...
+[07.22.24 14:37:05] FLOPs after pruning: 
+[2764800, 39628800, 5990400, 11059200, 3110400, 4262400, 1512000, 1684800, 392400, 262800, 2779200, 691200, 11462400, 2476800, 20505600, 4377600, 41472000, 13824000]
+[07.22.24 14:37:08] Finished finetuning
+[07.22.24 14:37:08] Finetuned loss: 0.7583313530141657
+[07.22.24 14:37:08] Saving finetuned to checkpoints/pruned/epoch_45/finetuned.pt...
+[07.22.24 14:37:37] Validation Dice Coeff: 0.39002442124734
+device:  cuda
+Processing epoch 46
+[07.22.24 14:37:40] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_46.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:37:40] Built model...
+[07.22.24 14:37:40] Loading checkpoint from checkpoints/original/epoch_46.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:37:40] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:37:42] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:37:42] Completed Pruning of 2944 channels
+[07.22.24 14:37:42] Saving pruned to checkpoints/pruned/epoch_46/pruned.pt...
+[07.22.24 14:37:42] Pruned channels to checkpoints/pruned/epoch_46/pruned_channels.txt...
+[07.22.24 14:37:42] Re-Built model using checkpoints/pruned/epoch_46/pruned_channels.txt...
+[07.22.24 14:37:42] Re-Loaded checkpoint from checkpoints/pruned/epoch_46/pruned.pt...
+[07.22.24 14:37:42] FLOPs after pruning: 
+[2764800, 36864000, 4377600, 12211200, 3513600, 2707200, 1512000, 878400, 424800, 241200, 2793600, 777600, 11577600, 3225600, 27187200, 6912000, 46080000, 20275200]
+[07.22.24 14:37:46] Finished finetuning
+[07.22.24 14:37:46] Finetuned loss: 0.8107354586774652
+[07.22.24 14:37:46] Saving finetuned to checkpoints/pruned/epoch_46/finetuned.pt...
+[07.22.24 14:38:17] Validation Dice Coeff: 0.570387834112269
+device:  cuda
+Processing epoch 47
+[07.22.24 14:38:20] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_47.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:38:20] Built model...
+[07.22.24 14:38:20] Loading checkpoint from checkpoints/original/epoch_47.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:38:20] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:38:22] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:38:22] Completed Pruning of 2944 channels
+[07.22.24 14:38:22] Saving pruned to checkpoints/pruned/epoch_47/pruned.pt...
+[07.22.24 14:38:22] Pruned channels to checkpoints/pruned/epoch_47/pruned_channels.txt...
+[07.22.24 14:38:22] Re-Built model using checkpoints/pruned/epoch_47/pruned_channels.txt...
+[07.22.24 14:38:22] Re-Loaded checkpoint from checkpoints/pruned/epoch_47/pruned.pt...
+[07.22.24 14:38:23] FLOPs after pruning: 
+[2764800, 36864000, 11059200, 17049600, 3628800, 5414400, 1252800, 1152000, 284400, 248400, 1713600, 792000, 10944000, 1900800, 25804800, 5299200, 63590400, 21196800]
+[07.22.24 14:38:28] Finished finetuning
+[07.22.24 14:38:28] Finetuned loss: 1.057816673408855
+[07.22.24 14:38:28] Saving finetuned to checkpoints/pruned/epoch_47/finetuned.pt...
+[07.22.24 14:39:08] Validation Dice Coeff: 0.4667731900038553
+device:  cuda
+Processing epoch 48
+[07.22.24 14:39:11] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_48.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:39:11] Built model...
+[07.22.24 14:39:11] Loading checkpoint from checkpoints/original/epoch_48.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:39:11] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:39:13] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:39:13] Completed Pruning of 2944 channels
+[07.22.24 14:39:13] Saving pruned to checkpoints/pruned/epoch_48/pruned.pt...
+[07.22.24 14:39:13] Pruned channels to checkpoints/pruned/epoch_48/pruned_channels.txt...
+[07.22.24 14:39:13] Re-Built model using checkpoints/pruned/epoch_48/pruned_channels.txt...
+[07.22.24 14:39:13] Re-Loaded checkpoint from checkpoints/pruned/epoch_48/pruned.pt...
+[07.22.24 14:39:14] FLOPs after pruning: 
+[2764800, 30412800, 6912000, 12441600, 3225600, 4896000, 1512000, 1843200, 331200, 259200, 1857600, 590400, 11865600, 2476800, 22579200, 5299200, 48844800, 19353600]
+[07.22.24 14:39:18] Finished finetuning
+[07.22.24 14:39:18] Finetuned loss: 0.972144836729223
+[07.22.24 14:39:18] Saving finetuned to checkpoints/pruned/epoch_48/finetuned.pt...
+[07.22.24 14:39:50] Validation Dice Coeff: 0.5438810935081322
+device:  cuda
+Processing epoch 49
+[07.22.24 14:39:53] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_49.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:39:53] Built model...
+[07.22.24 14:39:53] Loading checkpoint from checkpoints/original/epoch_49.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:39:53] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:39:55] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:39:55] Completed Pruning of 2944 channels
+[07.22.24 14:39:55] Saving pruned to checkpoints/pruned/epoch_49/pruned.pt...
+[07.22.24 14:39:55] Pruned channels to checkpoints/pruned/epoch_49/pruned_channels.txt...
+[07.22.24 14:39:55] Re-Built model using checkpoints/pruned/epoch_49/pruned_channels.txt...
+[07.22.24 14:39:55] Re-Loaded checkpoint from checkpoints/pruned/epoch_49/pruned.pt...
+[07.22.24 14:39:56] FLOPs after pruning: 
+[2764800, 19353600, 6451200, 10828800, 3398400, 5299200, 1252800, 1828800, 295200, 198000, 3009600, 576000, 10713600, 2419200, 21657600, 3456000, 48844800, 13824000]
+[07.22.24 14:39:59] Finished finetuning
+[07.22.24 14:39:59] Finetuned loss: 0.7526274377649481
+[07.22.24 14:39:59] Saving finetuned to checkpoints/pruned/epoch_49/finetuned.pt...
+[07.22.24 14:40:26] Validation Dice Coeff: 0.25886475570106043
+device:  cuda
+Processing epoch 50
+[07.22.24 14:40:29] Args: {
+    "batch_size": 2,
+    "epochs": null,
+    "flops_reg": 0.001,
+    "gpu": false,
+    "iters": 10,
+    "load": "checkpoints/original/epoch_50.pt",
+    "lr": 0.0001,
+    "prune_channels": 2944,
+    "taylor_batches": 500
+}
+[07.22.24 14:40:29] Built model...
+[07.22.24 14:40:29] Loading checkpoint from checkpoints/original/epoch_50.pt...
+0 inc.conv.conv.0 Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+1 inc.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+2 down1.mpconv.1.conv.0 Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+3 down1.mpconv.1.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+4 down2.mpconv.1.conv.0 Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+5 down2.mpconv.1.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+6 down3.mpconv.1.conv.0 Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+7 down3.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+8 down4.mpconv.1.conv.0 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+9 down4.mpconv.1.conv.3 Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+10 up1.conv.conv.0 Conv2d(1024, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+11 up1.conv.conv.3 Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+12 up2.conv.conv.0 Conv2d(512, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+13 up2.conv.conv.3 Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+14 up3.conv.conv.0 Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+15 up3.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+16 up4.conv.conv.0 Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+17 up4.conv.conv.3 Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+18 outc.conv Conv2d(64, 1, kernel_size=(1, 1), stride=(1, 1))
+[07.22.24 14:40:29] Evaluating Taylor criterion for 500 mini-batches
+[07.22.24 14:40:31] FLOPs before pruning: 
+[2764800, 58982400, 14745600, 29491200, 7372800, 14745600, 3686400, 7372800, 1843200, 1843200, 14745600, 3686400, 29491200, 7372800, 58982400, 14745600, 117964800, 58982400]
+[07.22.24 14:40:31] Completed Pruning of 2944 channels
+[07.22.24 14:40:31] Saving pruned to checkpoints/pruned/epoch_50/pruned.pt...
+[07.22.24 14:40:31] Pruned channels to checkpoints/pruned/epoch_50/pruned_channels.txt...
+[07.22.24 14:40:31] Re-Built model using checkpoints/pruned/epoch_50/pruned_channels.txt...
+[07.22.24 14:40:31] Re-Loaded checkpoint from checkpoints/pruned/epoch_50/pruned.pt...
+[07.22.24 14:40:32] FLOPs after pruning: 
+[2764800, 35020800, 5068800, 12902400, 2880000, 4723200, 1555200, 590400, 262800, 212400, 1987200, 1252800, 11865600, 1843200, 28108800, 7372800, 56217600, 28569600]
+[07.22.24 14:40:36] Finished finetuning
+[07.22.24 14:40:36] Finetuned loss: 1.2595862664959647
+[07.22.24 14:40:36] Saving finetuned to checkpoints/pruned/epoch_50/finetuned.pt...
+[07.22.24 14:41:10] Validation Dice Coeff: 0.2800232222565649
+device:  cuda
