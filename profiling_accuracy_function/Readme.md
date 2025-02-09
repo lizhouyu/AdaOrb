@@ -17,7 +17,7 @@ You can quickly reproduce the figure with our pre-generated data in [training_cu
 
 ## Reproduce Data
 ### Download dataset
-- Download the archived dataset file `location_bootstrap_datasets.zip` from [Onedrive](https://1drv.ms/u/s!Aq2g0rj4xX3WgYt7b5c6z9v8fJdQ?e=Gk0ZlD).
+- Download the archived dataset file `location_bootstrap_datasets.zip` from [Onedrive](https://1drv.ms/u/c/96ae991c9e262838/EeIFA_WfRStCk6-uIaa2UrkBImNvbujuGrphx7ykQSxkPw?e=PGI1A8) and store it to the current folder.
 - Extract the dataset file to the current directory.
     ```bash
     unzip location_bootstrap_datasets.zip

@@ -12,5 +12,10 @@ We have listed the folders for each figure in the following table.
 | Figure 5 and Figure 6(a)| [oec_model_retraining_task_scheduling_simulator](oec_model_retraining_task_scheduling_simulator) |
 | Figure 6(b) | [plot_algorithm_and_model_running_time](plot_algorithm_and_model_running_time) |
 
-
 Details about how to reproduce the figures can be found in the corresponding folders.
+
+## Environment Setup
+The environment file provided under this root directory, unless otherwise specified, can be applied to most of the experiments in this repository.
+```bash
+pip install -r requirements.txt
+```

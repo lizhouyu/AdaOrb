@@ -23,8 +23,14 @@ You can quickly reproduce the figures in the paper by running the provided Jupyt
 
 ## Simulation
 You can also reproduce the data used in the paper by running the provided Python scripts.
+### Environment Setup
+- Install the required packages with
+```bash
+pip install -r requirements.txt
+```
+Use a separate conda environment is recommended.
 ### Prepare Data
-- Download the archived dataset file `location_evaluation_dataset.zip` from [OneDrive](https://1drv.ms/u/s!Aqz0b2g3x5r8gYt4vX6k7Qw9fJm2?e=GZc0aE) to the current folder.
+- Download the archived dataset file `location_evaluation_dataset.zip` from [OneDrive](https://1drv.ms/u/c/96ae991c9e262838/EYzgrdoVSHpKlZdPJIfHHiwBbsbq2k3ShBsnUci4d4x7Ow?e=B1MA75) to the current folder.
 - Extract the dataset with
 ```bash
 unzip location_evaluation_dataset.zip
@@ -57,6 +63,20 @@ Simulation results will be saved in the [data](data) folder.
 - Change the `data_root` variable in the second block of the notebook to the path of the `data` folder.
 - Run the notebook to reproduce the figure.
 - The generated figure will be saved at 'figs/prediction_horizon/fig6a_prediction_horizon_utility_subplots.pdf', a '.png' version will also be saved for visualization.
+
+## Folder Structure
+Here is a table about the content in each folder.
+| Folder | Content |
+| ------ | ------ |
+| [allocator](allocator) | Codes for the downlink resource allocators. Algorithm implementations are in this folder. |
+| [sat_data](sat_data) | Codes for the simulated satellite data |
+| [unet](unet) | Codes for the UNet model |
+| [weights](weights) | Pre-trained model weights |
+| [utils](utils) | Utility functions |
+| [retrain_models.py](retrain_models.py) | Codes for the model retraining process |
+| [simulator.py](simulator.py) | Codes for the simulator |
+| [run.py](run.py) | Script to run the simulation for Figure 5(a) and Figure 5(b) influence of algorithms on overall utility |
+| [run_vary_predict_horizon.py](run_vary_predict_horizon.py) | Script to run the simulation for Figure 6(a) influence of prediction horizons|
 
 
 
