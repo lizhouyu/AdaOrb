@@ -7,7 +7,7 @@ We have listed the folders for each figure in the following table.
 | Figure | Folder |
 | ------ | ------ |
 | Figure 1 | [sat_movement_trace](sat_movement_trace) |
-| Figure 2 | [data_distribution_drift](data_distribution_drift) |
+| Figure 2 | [data_distribution_shift](data_distribution_shift) |
 | Figure 4 | [profiling_accuracy_function](profiling_accuracy_function) |
 | Figure 5 and Figure 6(a)| [oec_model_retraining_task_scheduling_simulator](oec_model_retraining_task_scheduling_simulator) |
 | Figure 6(b) | [plot_algorithm_and_model_running_time](plot_algorithm_and_model_running_time) |
