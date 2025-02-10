@@ -17,11 +17,19 @@ The pre-generated data is stored in the [eval_results](eval_results) and [traini
 
 ## Reproduce the Data
 ### Preparation
-- Download the model weights from [OneDrive](https://1drv.ms/u/c/96ae991c9e262838/EULEh1Sis8tIks4UEy7t7doB-W4wwKn8-R6ejWvPNkdrIA?e=71ONCX) and place them in the [Prune_U-Net](Prune_U-Net) folder.
-- Download the archieved model adaption dataset (extracted from SpaceNet2 dataset) from [OneDrive(To be uploaded)]() and place it in the [Prune_U-Net](Prune_U-Net) folder.
 - Go to the [Prune_U-Net](Prune_U-Net) folder.
     ```bash
     cd Prune_U-Net
+    ```
+- Download the model weights from [OneDrive](https://1drv.ms/u/c/96ae991c9e262838/EULEh1Sis8tIks4UEy7t7doB-W4wwKn8-R6ejWvPNkdrIA?e=71ONCX) and place them in the [Prune_U-Net](Prune_U-Net) folder.
+- Extract the model weights.
+    ```bash
+    unzip checkpoint.zip
+    ```
+- Download the archieved model adaption dataset (extracted from SpaceNet2 dataset) from [OneDrive](https://1drv.ms/u/c/96ae991c9e262838/EYwm2eJGYcVCl0ndEwUXm1ABoJKmO6aDWSrAZu1XdTrjJg?e=tvL3tK) and place it in the [Prune_U-Net](Prune_U-Net) folder.
+- Extract the dataset.
+    ```bash
+    tar -xvf model_adaption_dataset.tar.gz
     ```
 ### Evaluation
 - Run the [eval_locations.py](Prune_U-Net/eval_locations.py) script to generate the data for Figure 2a.
