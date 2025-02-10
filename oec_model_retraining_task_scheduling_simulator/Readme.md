@@ -23,12 +23,6 @@ You can quickly reproduce the figures in the paper by running the provided Jupyt
 
 ## Simulation
 You can also reproduce the data used in the paper by running the provided Python scripts.
-### Environment Setup
-- Install the required packages with
-```bash
-pip install -r requirements.txt
-```
-Use a separate conda environment is recommended.
 ### Prepare Data
 - Download the archived dataset file `location_evaluation_dataset.zip` from [OneDrive](https://1drv.ms/u/c/96ae991c9e262838/EYzgrdoVSHpKlZdPJIfHHiwBbsbq2k3ShBsnUci4d4x7Ow?e=B1MA75) to the current folder.
 - Extract the dataset with

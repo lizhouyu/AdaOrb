@@ -1,92 +1,102 @@
+Brotli
+Flask
+Jinja2
+MarkupSafe
+PyMaxflow
+PySocks
+PyWavelets
+PyYAML
+Pygments
+Werkzeug
 absl-py
 aenum
-affine @ file:///home/conda/feedstock_root/build_artifacts/affine_1674245120525/work
-aiohttp @ file:///home/conda/feedstock_root/build_artifacts/aiohttp_1713964853148/work
-aiosignal @ file:///home/conda/feedstock_root/build_artifacts/aiosignal_1667935791922/work
+affine
+aiohttp
+aiosignal
 astropy
 astropy-iers-data
 asttokens
-async-timeout @ file:///home/conda/feedstock_root/build_artifacts/async-timeout_1691763562544/work
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1704011227531/work
-blinker @ file:///croot/blinker_1696539051175/work
-Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1648883617327/work
-cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1721091878889/work
+async-timeout
+attrs
+blinker
+cachetools
 casadi
-certifi @ file:///croot/certifi_1720453481653/work/certifi
-cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1696001684923/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1698833585322/work
-click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+certifi
+cffi
+charset-normalizer
+click
 click-plugins
-cligj @ file:///home/conda/feedstock_root/build_artifacts/cligj_1633637764473/work
-cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1697464713350/work
+cligj
+cloudpickle
 coloredlogs
 comm
 contourpy
-cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography-split_1717559422169/work
+cryptography
 cycler
-cytoolz @ file:///home/conda/feedstock_root/build_artifacts/cytoolz_1706897049115/work
-dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1721437018159/work
+cytoolz
+dask
 dataclasses-json
 debugpy
 decorator
-detectree @ file:///home/conda/feedstock_root/build_artifacts/detectree_1711957340796/work
+detectree
 distlib
-earthengine-api @ file:///home/conda/feedstock_root/build_artifacts/earthengine-api_1722302802380/work
+do_mpc
+earthengine-api
 exceptiongroup
 executing
 filelock
-Flask @ file:///croot/flask_1716545870149/work
 flatbuffers
 fonttools
-frozenlist @ file:///home/conda/feedstock_root/build_artifacts/frozenlist_1702645481127/work
-fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1719514913127/work
-google-api-core @ file:///home/conda/feedstock_root/build_artifacts/google-api-core-split_1719307021830/work
-google-api-python-client @ file:///home/conda/feedstock_root/build_artifacts/google-api-python-client_1721954059027/work
-google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1720518315193/work
-google-auth-httplib2 @ file:///home/conda/feedstock_root/build_artifacts/google-auth-httplib2_1702435542843/work
-google-cloud-core @ file:///home/conda/feedstock_root/build_artifacts/google-cloud-core_1702002980770/work
-google-cloud-storage @ file:///home/conda/feedstock_root/build_artifacts/google-cloud-storage_1721718721223/work
-google-crc32c @ file:///home/conda/feedstock_root/build_artifacts/google-crc32c_1695545294675/work
-google-resumable-media @ file:///home/conda/feedstock_root/build_artifacts/google-resumable-media_1702437055406/work
-googleapis-common-protos @ file:///home/conda/feedstock_root/build_artifacts/googleapis-common-protos-feedstock_1719306277169/work
-grpcio @ file:///croot/grpc-split_1716834572340/work
-h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1634280454336/work
+frozenlist
+fsspec
+google-api-core
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-cloud-core
+google-cloud-storage
+google-crc32c
+google-resumable-media
+googleapis-common-protos
+grpcio
+h2
 hpack
-httplib2 @ file:///home/conda/feedstock_root/build_artifacts/httplib2_1679483503307/work
-huggingface_hub @ file:///home/conda/feedstock_root/build_artifacts/huggingface_hub_1722613646665/work
+httplib2
+huggingface_hub
 humanfriendly
-hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1619110129307/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1713279365350/work
-imagecodecs @ file:///croot/imagecodecs_1695064943445/work
-imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1719234999090/work
+hyperframe
+idna
+imagecodecs
+imageio
 immutabledict
-importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1719361860083/work
+importlib_metadata
 ipykernel
 ipython
-itsdangerous @ file:///croot/itsdangerous_1716533337253/work
+itsdangerous
 jedi
-Jinja2 @ file:///croot/jinja2_1716993405101/work
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1714665484399/work
+joblib
 jupyter_client
 jupyter_core
-kafka-python @ file:///home/conda/feedstock_root/build_artifacts/kafka-python_1601470752419/work
+kafka-python
 kiwisolver
-laspy @ file:///home/conda/feedstock_root/build_artifacts/laspy_1718871693935/work
-lazrs @ file:///home/conda/feedstock_root/build_artifacts/lazrs-python_1721869421193/work
-lightgbm @ file:///home/conda/feedstock_root/build_artifacts/lightgbm_1641599986273/work
+laspy
+lazrs
+lightgbm
 lightning-utilities
-line-profiler @ file:///croot/line_profiler_1696543327075/work
-locket @ file:///home/conda/feedstock_root/build_artifacts/locket_1650660393415/work
-MarkupSafe @ file:///croot/markupsafe_1704205993651/work
+line-profiler
+locket
 marshmallow
 matplotlib
 matplotlib-inline
+mkl-service
+mkl_fft
+mkl_random
 mpmath
-multidict @ file:///home/conda/feedstock_root/build_artifacts/multidict_1707040698785/work
+multidict
 mypy-extensions
 nest-asyncio
-networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1697694336581/work
-numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp310-cp310-linux_x86_64.whl#sha256
+networkx
+numpy
 nvidia-cublas-cu12
 nvidia-cuda-cupti-cu12
 nvidia-cuda-nvrtc-cu12
@@ -108,63 +118,58 @@ ortools
 packaging
 pandas
 parso
-partd @ file:///home/conda/feedstock_root/build_artifacts/partd_1715026491486/work
-pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1706113125309/work
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
-pillow @ file:///croot/pillow_1721059439630/work
+partd
+pexpect
+pickleshare
+pillow
 platformdirs
 prompt_toolkit
-proto-plus @ file:///home/conda/feedstock_root/build_artifacts/proto-plus_1702003338643/work
+proto-plus
 protobuf
 psutil
-ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+ptyprocess
 pure_eval
 py-cpuinfo
-pyasn1 @ file:///home/conda/feedstock_root/build_artifacts/pyasn1_1713209357222/work
-pyasn1_modules @ file:///home/conda/feedstock_root/build_artifacts/pyasn1-modules_1713209683338/work
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1711811537435/work
+pyOpenSSL
+pyasn1
+pyasn1_modules
+pycparser
 pyerfa
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
-PyMaxflow @ file:///home/conda/feedstock_root/build_artifacts/pymaxflow_1636268998722/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1721521154855/work
-pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1709721012883/work
+pyparsing
 pyproj
 pyrsimg
-PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
 python-dateutil
 pytorch-lightning
-pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
-pyu2f @ file:///home/conda/feedstock_root/build_artifacts/pyu2f_1604248910016/work
-PyWavelets
-PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1695373428874/work
+pytz
+pyu2f
 pyzmq
-rasterio @ file:///croot/rasterio_1720040146811/work
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1717057054362/work
+rasterio
+requests
 requests-oauthlib
-rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1658328885051/work
+rsa
 s2cloudless
-scikit-image @ file:///home/conda/feedstock_root/build_artifacts/scikit-image_1645196658914/work
-scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1652976692230/work
+scikit-image
+scikit-learn
 scipy
 seaborn
 sentinelhub
-shapely @ file:///croot/shapely_1722533160971/work
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-skops @ file:///home/conda/feedstock_root/build_artifacts/skops_1720085438860/work
-snuggs @ file:///home/conda/feedstock_root/build_artifacts/snuggs_1722610615774/work
+shapely
+six
+skops
+snuggs
 stack-data
 sympy
-tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1665138452165/work
-threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1714400101435/work
-tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1692120125985/work
+tabulate
+threadpoolctl
+tifffile
 tomli
 tomli_w
-toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1706112571092/work
+toolz
 torch
 torchmetrics
 torchvision
 tornado
-tqdm @ file:///croot/tqdm_1716395931952/work
+tqdm
 traitlets
 triton
 typing-inspect
@@ -172,12 +177,11 @@ typing_extensions
 tzdata
 ultralytics
 ultralytics-thop
-uritemplate @ file:///home/conda/feedstock_root/build_artifacts/uritemplate_1634152692041/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1719391292974/work
+uritemplate
+urllib3
 utm
 virtualenv
 wcwidth
-Werkzeug @ file:///croot/werkzeug_1716533313107/work
-yarl @ file:///home/conda/feedstock_root/build_artifacts/yarl_1705508292061/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1718013267051/work
+yarl
+zipp
 zstandard
